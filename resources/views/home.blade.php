@@ -5,33 +5,33 @@
     <section id="homeContact">
         <h1>Grimbergen Motors</h1>
         <article>
-            <h3>{{__("messages.adres")}}:</h3>
+            <h2>{{__("messages.adres")}}:</h2>
             <p>Sint-Amandsstraat 54-56, 1853 Stroombeek-Bever</p>
         </article>
 
         <article>
-            <h3>{{__("messages.opening")}}:</h3>
+            <h2>{{__("messages.opening")}}:</h2>
             <p>{{__("messages.week")}}</p>
             <p>{{__("messages.uur1")}} {{__("messages.uur2")}}</p>
         </article>
 
         <article>
-            <h3>{{__("messages.telefoon")}}:</h3>
+            <h2>{{__("messages.telefoon")}}:</h2>
             <p>02 267 19 51</p>
         </article>
 
         <article>
-            <h3>Email:</h3>
+            <h2>Email:</h2>
             <p>info@grimbergenmotors.be</p>
         </article>
 
         <article>
-            <h3>{{__("messages.btw")}}:</h3>
+            <h2>{{__("messages.btw")}}:</h2>
             <p>BE0419805013</p>
         </article>
 
         <article>
-            <h3>{{__("messages.HRB")}}:</h3>
+            <h2>{{__("messages.HRB")}}:</h2>
             <p>296434</p>
         </article>
 

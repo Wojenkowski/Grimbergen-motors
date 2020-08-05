@@ -3,14 +3,14 @@
 @section("main")
 
     <section id="contact" class="container">
-        <h1></h1>
+        <h1>Grimbergen motors</h1>
         <article>
-            <h3>{{__("messages.telefoon")}}:</h3>
+            <h2>{{__("messages.telefoon")}}:</h2>
             <p>022 67 19 51</p>
         </article>
 
         <article>
-            <h3>Email:</h3>
+            <h2>Email:</h2>
             <p>info@grimbergenmotors.be</p>
         </article>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3 center">

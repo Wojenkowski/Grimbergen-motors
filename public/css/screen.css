@@ -10,7 +10,8 @@ h1{
 }
 
 h2{
-    font-size: 1.35rem;
+    font-weight: bold;
+    font-size: 1.9rem;
 }
 
 main{
@@ -334,7 +335,7 @@ textarea {
 }
 
 #contact{
-    margin-top: 100px;
+    margin-top: 1%;
     text-align: center;
     vertical-align: center;
 }
@@ -430,10 +431,7 @@ table {
     margin-left: auto;
 }
 
-h3{
-    font-weight: bold;
-    font-size: 1.9rem;
-}
+
 
 @media (max-width: 991px) {
     footer {

@@ -37,3 +37,11 @@ S
 #app/Http/Controllers/Controller.php,2\e\2ed23e1749f02eb8e561f0a531d07863e7cf9fb9
 \
 ,app/Http/Controllers/SendEmailController.php,2\f\2f47c76bdf4bccfe6d0f9c4d463619c66b6556f8
+<
+package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
+A
+package-lock.json,f\a\fa288d1472d29beccb489a676f68739ad365fc47
+R
+"resources/views/diensten.blade.php,c\d\cd434660573635fc736582572a94ac720e21901f
+`
+0resources/views/dynamic_email_template.blade.php,d\f\dfb689059f0a38b37474bd8724d8025b93a15beb

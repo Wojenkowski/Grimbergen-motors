@@ -6,7 +6,7 @@
 
    <section id="homeContact">
 
-       <h3>{{__("messages.diensten")}}</h3>
+       <h2>{{__("messages.diensten")}}</h2>
 
        <article>
            <p>{{__("messages.Hersteligen")}}</p>
