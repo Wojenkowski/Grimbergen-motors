@@ -17,11 +17,8 @@ Route::get('locale/{locale}', function ($locale) {
     session()->put('locale', $locale);
     return redirect()->back();
 });
-
 Route::post('/sendmail','SendEmailController@send');
-
-
-
+Route::group(['middleware' => ['cache']], function(){
 
 
 Route::view('/', 'home');
@@ -61,5 +58,6 @@ Route::get('/directiewagen', function () {
 });
 Route::get('/promoties', function () {
     return view("promoties");
+});
 });
 
