@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa503b104f700e4337a4bf209a56bc8a",
+    "content-hash": "aaff74b47a91a4d91c5ea35f8f8db5a8",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -420,6 +420,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -466,6 +467,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
@@ -1416,6 +1418,65 @@
                 "uuid"
             ],
             "time": "2018-07-19T23:38:55+00:00"
+        },
+        {
+            "name": "silber/page-cache",
+            "version": "v1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JosephSilber/page-cache.git",
+                "reference": "74c96c151b1599764c16f57af061f6ac690fb10a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JosephSilber/page-cache/zipball/74c96c151b1599764c16f57af061f6ac690fb10a",
+                "reference": "74c96c151b1599764c16f57af061f6ac690fb10a",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "5.0 - 5.8|^6.0|^7.0",
+                "illuminate/filesystem": "5.0 - 5.8|^6.0|^7.0",
+                "php": ">=5.5.9",
+                "symfony/http-foundation": "2.6 - 4|^5.0"
+            },
+            "require-dev": {
+                "illuminate/container": "5.0 - 5.8|^6.0|^7.0",
+                "larapack/dd": "^1.1",
+                "mockery/mockery": "^0.9.5",
+                "phpunit/phpunit": "^4.8"
+            },
+            "suggest": {
+                "illuminate/console": "Allows clearing the cache via artisan"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Silber\\PageCache\\LaravelServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Silber\\PageCache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joseph Silber",
+                    "email": "contact@josephsilber.com"
+                }
+            ],
+            "description": "Caches responses as static files on disk for lightning fast page loads.",
+            "keywords": [
+                "cache",
+                "laravel"
+            ],
+            "time": "2020-07-19T18:24:29+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

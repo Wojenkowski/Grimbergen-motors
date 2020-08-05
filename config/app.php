@@ -1,3 +1,4 @@
+
 <?php
 
 return [
@@ -162,10 +163,12 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+
+
         /*
          * Package Service Providers...
          */
-
+        Silber\PageCache\LaravelServiceProvider::class,
         /*
          * Application Service Providers...
          */

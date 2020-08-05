@@ -45,3 +45,21 @@ R
 "resources/views/diensten.blade.php,c\d\cd434660573635fc736582572a94ac720e21901f
 `
 0resources/views/dynamic_email_template.blade.php,d\f\dfb689059f0a38b37474bd8724d8025b93a15beb
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+N
+public/css/resetCompressed.css,5\e\5e40266d71b255b90812854a1af8cea53ec29c5c
+O
+public/css/screenCompressed.css,7\f\7f727534341d5a6e51bf68a933640f33fd1fd86a
+R
+"resources/views/location.blade.php,2\f\2ff08c242af5c47c35c2e699d8736ed7b1fe257d
+T
+$.idea/codeStyles/codeStyleConfig.xml,d\d\dd7b3350c29c49497756c7f32c69a3bed18b1cba
+t
+Dstorage/framework/views/35bd463792022176ea3554da3aecaf36b7380bf8.php,a\a\aa59b5ef9174162ec7ce07c53f3ae19156804636
+R
+"app/Http/Middleware/GlobalCash.php,d\6\d6f39c49348e3db845f8343195c93093d015869b
+>
+config/app.php,7\3\734f7be25e8008acc7129e73cd116d5de913e6fd
+C
+app/Http/Kernel.php,4\0\405f423e61f666bcedb754ae8befdce9e746176e
