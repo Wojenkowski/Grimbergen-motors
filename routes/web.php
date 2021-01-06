@@ -18,7 +18,7 @@ Route::get('locale/{locale}', function ($locale) {
     return redirect()->back();
 });
 Route::post('/sendmail','SendEmailController@send');
-Route::group(['middleware' => ['cache']], function(){
+
 
 
 Route::view('/', 'home');
@@ -59,5 +59,15 @@ Route::get('/directiewagen', function () {
 Route::get('/promoties', function () {
     return view("promoties");
 });
+
+Route::get('/test', function () {
+    return view("test");
 });
+Route::get('/heden', function () {
+    return view("heden");
+});
+Route::get('/corona', function () {
+    return view("Corona");
+});
+
 

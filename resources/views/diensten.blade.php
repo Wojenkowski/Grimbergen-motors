@@ -1,5 +1,9 @@
 @extends("master")
+@section("title&meta")
+    <meta name="description" content="{{__("messages.descriptionHome")}}">
+    <title>Grimbergen motors {{__("messages.diensten")}}</title>
 
+@endsection
 @section("main")
 
 

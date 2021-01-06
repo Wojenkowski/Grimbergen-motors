@@ -5,7 +5,7 @@ return[
     "contact" =>"Contact",
     "gamma" =>"Gamma",
     "ontvangst"=>"Reception",
-    "diensten"=>"services",
+    "diensten"=>"Services",
     "wagens"=>"cars",
     "directiewagen"=>"executive cars",
     "promoties"=>"promotions",
@@ -15,7 +15,7 @@ return[
     "evenementen"=>"events",
     "tweedehandswagens"=>"second-hand cars",
     "rechten" => "All rights reserved.",
-    "missie" => "Your best cherished car is your best guarantee",
+    "missie" => "Your cherished car is your best guarantee",
     "about" => "About the company",
     "map" => "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10063.266299337645!2d4.358252!3d50.90861!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbc7a0f565d36d939!2sGrimbergen%20Motors%20bvba!5e0!3m2!1sfr!2sbe!4v1572447154360!5m2!1sfr!2sbe",
     "ondek" => "Discover the entire Renault range.",
@@ -51,11 +51,18 @@ return[
     "info" =>"Company Information",
     "binnenkort"=> "available soon",
     "HRB"=>"RCB",
-    "description"=>"U kunt hier alles vinden over de garage Grimbergen Motors,locatie ,openingsuren, diensten, wagens, expertise, contact",
+    "descriptionHome"=>"Grimbergen Motors® Car repairs for all brands and best car repair company in Grimbergen. Quickly repairs all damaged of your car. Pass it now.",
     "policy"=>"Link to our policy",
     "voorwaarden"=>"By using this form you indicate that you agree to the use and storage of your data by this website",
-    "algemeen"=>"[ terms and conditions for sales and repairs]"
-
-
-
+    "algemeen"=>"[ terms and conditions for sales and repairs]",
+    "welcome"=> "Welcome to Grimbergen Motors",
+    "aboutNav" => "About",
+    "language" =>"Language",
+    "getStated" =>"Get Stated",
+    "past"=>"Past",
+    "past1" =>"Since January 1, 2020, we are no longer a distributor of the Renault and Dacia brands.",
+    "past2" =>"We have therefore become a garage with the emphasis on repairing all vehicles and therefore all brands as far as possible.",
+    "pastTitle"=>"Past of Grimbergen Motors",
+    "today" =>"Today",
+    "moreInfo"=>"More info",
 ];

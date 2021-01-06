@@ -1,17 +1,43 @@
 @extends("master")
 
+@section("title&meta")
+    <meta name="description" content="{{__("messages.descriptionHome")}}">
+    <title>Grimbergen motors {{__("messages.contact")}}</title>
+
+@endsection
+
 @section("main")
 
     <section id="contact" class="container">
-        <h1>Grimbergen motors</h1>
+        <article>
+            <h2>{{__("messages.adres")}}:</h2>
+            <p>Sint-Amandsstraat 54-56, 1853 Stroombeek-Bever</p>
+        </article>
+
+        <article>
+            <h2>{{__("messages.opening")}}:</h2>
+            <p>{{__("messages.week")}}</p>
+            <p>{{__("messages.uur1")}} {{__("messages.uur2")}}</p>
+        </article>
+
         <article>
             <h2>{{__("messages.telefoon")}}:</h2>
-            <p>022 67 19 51</p>
+            <p>02 267 19 51</p>
         </article>
 
         <article>
             <h2>Email:</h2>
             <p>info@grimbergenmotors.be</p>
+        </article>
+
+        <article>
+            <h2>{{__("messages.btw")}}:</h2>
+            <p>BE0419805013</p>
+        </article>
+
+        <article>
+            <h2>{{__("messages.HRB")}}:</h2>
+            <p>296434</p>
         </article>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3 center">
 
