@@ -23,6 +23,8 @@
 
     <!-- Favicons
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">-->
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png" />
     <link  rel="shortcut icon" type="image/x-icon" href="{{asset('favicon.ico')}}"/>
 
     <!-- Google Fonts -->
