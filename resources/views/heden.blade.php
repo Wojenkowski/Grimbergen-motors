@@ -61,9 +61,9 @@
 
         <nav class="nav-menu d-none d-lg-block">
             <ul>
-                <li class="active"><a href="test/#hero">{{__("messages.home")}}</a></li>
-                <li><a href="test/#about">{{__("messages.aboutNav")}}</a></li>
-                <li><a href="test/#services">{{__("messages.diensten")}}</a></li>
+                <li class="active"><a href="/#hero">{{__("messages.home")}}</a></li>
+                <li><a href="/#about">{{__("messages.aboutNav")}}</a></li>
+                <li><a href="/#services">{{__("messages.diensten")}}</a></li>
                 <!--<li><a href="#portfolio">Portfolio</a></li>-->
                 <!--
                 <li><a href="#team">Team</a></li>
@@ -86,7 +86,7 @@
                     </ul>
                 </li>
                 -->
-                <li><a href="test/#contact">Contact</a>
+                <li><a href="/#contact">Contact</a>
 
                 <li class="drop-down"><a>{{__("messages.language")}}</a>
                     <ul>
@@ -139,10 +139,10 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="public/test">{{__("messages.home")}}</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="public/test">About us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="public/test">{{__("messages.diensten")}}</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="{{asset('/Files/Algemene voorwaarden voor verkopen en herstellingen.pdf')}}">Terms of service</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/">{{__("messages.home")}}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/#services">{{__("messages.diensten")}}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="corona">corona</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{asset('/Files/Algemene%20voorwaarden%20voor%20verkopen%20en%20herstellingen.pdf')}}">Terms of service</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="https://www.privacypolicies.com/privacy/view/61460f60c916824f9a8e778c145c6875">Privacy policy</a></li>
                     </ul>
                 </div>

@@ -2,7 +2,6 @@
 <html lang="{{app()->getLocale()}}">
 <head>
     <meta charset="utf-8">
-    <meta name="robots" content="noindex">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180268137-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -17,7 +16,7 @@
 
     <title>Grimbergen motors</title>
     <meta name="description" content="{{__("messages.descriptionHome")}}">
-    <meta content="" name="keywords">
+    <meta content="car,Best auto repair, auto shop, car mechanic, automobile, Best care repair" name="keywords">
 
     <!-- rest css -->
     <link  rel="stylesheet" type="text/css" href="{{asset('/css/resetCompressed.css')}}" />
@@ -122,19 +121,15 @@
                 </div>
                  <div class="col-lg-6 text-lg-left pt-4 pt-lg-0 ">
                      <h3>{{__("messages.about")}}</h3>
-                     <p>text</p>
                      <div class="row">
                          <div class="col-md-6">
-                             <i class="bx bx-receipt"></i>
-                             <h4>{{__("messages.today")}}</h4>
-                             <p>text/link</p>
                          </div>
                          <div class="col-md-6">
                              <i class="bx bx-cube-alt"></i>
                              <h4>{{__("messages.past")}}</h4>
                              <p>{{__("messages.past1")}}</p>
                              <p>{{__("messages.past2")}}</p>
-                             <a href="/public/heden">{{__("messages.moreInfo")}} </a>
+                             <a href="/heden">{{__("messages.moreInfo")}} </a>
                          </div>
                      </div>
                  </div>
@@ -516,7 +511,6 @@
 
             <div class="section-title">
                 <h2>Contact</h2>
-                <p>Text </p>
             </div>
 
             <div class="row">
@@ -575,7 +569,7 @@
                         </div>
                     @endif
 
-                    <form id="contact-form" class="php-email-form" action="{{url('/../sendmail')}}" method="POST">
+                    <form id="contact-form" class="php-email-form" action="{{url('/sendmail')}}" method="POST">
                         @csrf
                         <div class="form-row">
                             <div class="col-md-6 form-group">
@@ -696,13 +690,12 @@
     </div>
 </footer><!-- End Footer -->
 
-<a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+<a href="#hero" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
 
 <!-- Vendor JS Files -->
 <script  type="text/javascript" src="{{asset('/vendor/jquery/jquery.min.js')}}"> </script>
 <script  type="text/javascript" src="{{asset('/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"> </script>
 <script  type="text/javascript" src="{{asset('/vendor/jquery.easing/jquery.easing.min.js')}}"> </script>
-<script  type="text/javascript" src="{{asset('/vendor/php-email-form/validate.js')}}"> </script>
 <script  type="text/javascript" src="{{asset('/vendor/waypoints/jquery.waypoints.min.js')}}"> </script>
 <script  type="text/javascript" src="{{asset('/vendor/counterup/counterup.min.js')}}"> </script>
 <script  type="text/javascript" src="{{asset('/vendor/owl.carousel/owl.carousel.min.js')}}"> </script>

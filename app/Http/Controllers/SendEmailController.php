@@ -13,8 +13,8 @@ class SendEmailController extends Controller
             'name' => 'required',
             'email'=> 'required|email',
             'subject'=>'required',
-            'message'=>'required',
-            'checkbox'=>'required'
+            'message'=>'required'
+            //'checkbox'=>'required'
         ]);
 
         $data =array(

@@ -17,12 +17,20 @@ Route::get('locale/{locale}', function ($locale) {
     session()->put('locale', $locale);
     return redirect()->back();
 });
+
 Route::post('/sendmail','SendEmailController@send');
 
 
 
-Route::view('/', 'home');
+Route::view('/', 'index');
 
+Route::get('/heden', function () {
+    return view("heden");
+});
+Route::get('/corona', function () {
+    return view("Corona");
+});
+/*
 Route::get('/location', function () {
     return view("location");
 });
@@ -63,11 +71,6 @@ Route::get('/promoties', function () {
 Route::get('/test', function () {
     return view("test");
 });
-Route::get('/heden', function () {
-    return view("heden");
-});
-Route::get('/corona', function () {
-    return view("Corona");
-});
 
+*/
 
