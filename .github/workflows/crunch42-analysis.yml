@@ -42,6 +42,7 @@ jobs:
           api-token: ${{ secrets.API_TOKEN }}
           # Fail if any OpenAPI file scores lower than 75
           min-score: 75
+          collection-name: grimbergen motors
           # Upload results to Github code scanning
           upload-to-code-scanning: true
           # Github token for uploading the results
