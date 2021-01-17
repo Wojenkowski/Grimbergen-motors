@@ -69,7 +69,7 @@
                 <li><a href="#team">Team</a></li>
                 <li><a href="#pricing">Pricing</a></li>
                 -->
-                <li><a href="index#contact">Contact</a>
+                <li><a href="/public/#contact">Contact</a>
                 <li class="drop-down"><a href="/public/merken">{{__("messages.merken")}}</a>
                     <ul>
                         <li><a href="/public/merken">{{__("messages.allemerken")}}</a></li>
@@ -198,7 +198,7 @@
 
 <!-- Template Main JS File -->
 
-<script  type="text/javascript" src="{{asset('/js/main.js')}}"> </script>
+<script src="{{asset('/js/main.js')}}"> </script>
 
 </body>
 
