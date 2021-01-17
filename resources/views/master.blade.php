@@ -1,7 +1,7 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="{{app()->getLocale()}}">
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <meta charset="utf-8">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180268137-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -10,108 +10,196 @@
 
         gtag('config', 'UA-180268137-1');
     </script>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="#4285f4">
+
     @yield("title&meta")
-    <link  rel="shortcut icon" type="image/x-icon" href="{{asset('favicon.ico')}}"/>
+    <meta content="car,Best auto repair, auto shop, car mechanic, automobile, Best care repair" name="keywords">
+
+    <!-- rest css -->
     <link  rel="stylesheet" type="text/css" href="{{asset('/css/resetCompressed.css')}}" />
-    <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link  rel="stylesheet" type="text/css" href="{{asset('/css/screen.css')}}" />
-    <link  rel="manifest" href="{{asset('manifest.json')}}" />
+
+    <!-- Favicons
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">-->
+    <link rel="apple-touch-icon" sizes="120x120" href="{{asset('apple-touch-icon-120x120-precomposed.png')}}" />
+    <link rel="apple-touch-icon" sizes="152x152" href="{{asset('apple-touch-icon-152x152-precomposed.png')}}" />
+    <link  rel="shortcut icon" type="image/x-icon" href="{{asset('favicon.ico')}}"/>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/bootstrap/css/bootstrap.min.css')}}" />
+    <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/icofont/icofont.min.css')}}" />
+    <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/boxicons/css/boxicons.min.css')}}" />
+    <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/owl.carousel/assets/owl.carousel.min.css')}}" />
+    <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/vendor/venobox/venobox.css')}}" />
+
+    <!-- Template Main CSS File -->
+    <link  rel="stylesheet" type="text/css" href="{{asset('/css/style22.css')}}" />
+
+    <!-- =======================================================
+    * Template Name: Baker - v2.1.0
+    * Template URL: https://bootstrapmade.com/baker-free-onepage-bootstrap-theme/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
 </head>
+
 <body>
-<header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm ">
-        <section class="container">
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center">
 
-            <a><img tabindex="0" src="{{asset('/images/halfLogoNotCompressed100x145.png')}}" title="Grimbergen motors logo" alt="Grimbergen motors logo"></a>
+        <!--<h1 class="logo mr-auto"><a href="index.html">Grimbergen motors</a></h1>-->
+        <a class="mr-auto"><img src="{{asset('/images/halfLogoNotCompressed100x145-min.png')}}" title="Grimbergen motors logo" alt="Grimbergen motors logo" class="img-fluid"></a>
 
-            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-            <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                <ul class="navbar-nav    ml-auto">
-                    <li  class="nav-item active"><a rel="prefetch" tabindex="0" href="{{ url('./') }}" class="nav-link">{{__("messages.home")}}</a></li>
-                    <li  class="nav-item active"><a rel="prefetch" tabindex="0" href="{{ url('/diensten') }}" class="nav-link">{{__("messages.diensten")}}</a></li>
-                <!--<li  class="nav-item active"><a rel="prefetch"a tabindex="0" href="{{ url('/promoties') }}" class="nav-link">{{__("messages.promoties")}}</a></li>
-                    <li  class="nav-item active"><a rel="prefetch" tabindex="0" href="{{ url('/expertise') }}" class="nav-link">{{__("messages.expertise")}}</a></li>
-                    <li  class="nav-item active"><a rel="prefetch" tabindex="0" href="{{ url('/ons') }}" class="nav-link">{{__("messages.ons")}}</a></li> -->
-                    <li  class="nav-item active"><a rel="prefetch" tabindex="0" href="{{ url('/contact') }}" class="nav-link">{{__("messages.contact")}}</a></li>
-                    <li  class="nav-item active"><a rel="prefetch" tabindex="0" href="{{ url('/location') }}" class="nav-link">{{__("messages.location")}}</a></li>
-                <!--<li class="dropdown">
-                        <p class="nav-item active dropdown-toggle nav-link " id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            {{__("messages.wagens")}}
-                        </p>
-                        <div class="dropdown-menu">
-                            <a tabindex="0" class="dropdown-item" href="{{ url('/vervangwagens') }}">{{__("messages.vervangwagens")}}</a>
-                            <a tabindex="0" class="dropdown-item " href="{{ url('/tweedehandswagens') }}">{{__("messages.tweedehandswagens")}}</a>
-                            {{--                            <div class="dropdown-divider "></div>--}}
-                            <a tabindex="0" class="dropdown-item " href="{{ url('/directiewagen') }}">{{__("messages.directiewagen")}}</a>
-                        </div>
-                    </li>-->
-                    <li><a tabindex="0" class="language" href="{{ url('locale/nl') }}">NL</a></li>
-                    <li><a tabindex="0" class="language" href="{{ url('locale/fr') }}">FR</a></li>
-                    <li><a tabindex="0" class="language" href="{{ url('locale/en') }}">EN</a></li>
-                </ul>
+        <nav class="nav-menu d-none d-lg-block">
+            <ul>
+                <li class="active"><a href="/public/#hero">{{__("messages.home")}}</a></li>
+                <li><a href="/public/#about">{{__("messages.aboutNav")}}</a></li>
+                <li><a href="/public/#services">{{__("messages.diensten")}}</a></li>
+                <!--<li><a href="#portfolio">Portfolio</a></li>-->
+                <!--
+                <li><a href="#team">Team</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                -->
+                <li><a href="index#contact">Contact</a>
+                <li class="drop-down"><a href="/public/merken">{{__("messages.merken")}}</a>
+                    <ul>
+                        <li><a href="/public/merken">{{__("messages.allemerken")}}</a></li>
+                        <li class="drop-down"><a href="/public/dfsk">DFSK</a>
+                            <ul>
+                                <li><a href="/public/dfsk">{{__("messages.model")}}</a></li>
+                            </ul>
+                        <li class="drop-down"><a href="/public/baic">BAIC</a>
+                            <ul>
+                                <li><a href="/public/baic">{{__("messages.model")}}</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
 
-            </div>
-        </section>
-    </nav>
-</header>
+                <li class="drop-down"><a>{{__("messages.language")}}</a>
+                    <ul>
+                        <li><a href="{{ url('locale/nl') }}">NL</a></li>
+                        <li><a href="{{ url('locale/en') }}">EN</a></li>
+                        <li><a href="{{ url('locale/fr') }}">FR</a></li>
+                    </ul>
+                </li>
 
-<main>
+            </ul>
+        </nav><!-- .nav-menu -->
+
+    </div>
+</header><!-- End Header -->
+@yield("hero")
+<main id="main">
+
     @yield("main")
+
 </main>
 
-<div class="footer">
-    <footer>
-        <div class="footer-left col-md-4 col-sm-6">
-            <p class="about">
-                <span> {{__("messages.about")}}</span> {{__("messages.missie")}}
-            </p>
-        </div>
-        <div class="footer-center col-md-4 col-sm-6">
-            <div>
-                <em class="fa fa-map-marker"></em>
-                <p><span> Sint-Amandsstraat 54-56,</span> 1853 Strombeek-Bever</p>
-            </div>
-            <div>
-                <em class="fa fa-phone"></em>
-                <p> (+32) 02 267 19 51</p>
-            </div>
-            <div>
-                <em class="fa fa-envelope"></em>
-                <p><a tabindex="0" href="{{ url('/contact') }}"> info@grimbergenmotors.be</a></p>
-            </div>
-        </div>
-        <div class="footer-right col-md-4 col-sm-6">
-            <a><img tabindex="0" src="{{asset('/images/fullLogoNotCompressed.png')}}" title="Grimbergen motors logo" alt="Grimbergen motors logo"></a>
-            <p class="menu">
-                <a href="{{ url('./') }}">{{__("messages.home")}}</a> |
-                <a href="{{ url('/diensten') }}">{{__("messages.diensten")}}</a> |
-                <!--<a href="{{ url('/promoties') }}">{{__("messages.promoties")}}</a> |
-                <a href="{{ url('/expertise') }}">{{__("messages.expertise")}}</a> |
-                <a href="{{ url('./ons') }}">{{__("messages.ons")}}</a> |-->
-                <a href="{{ url('/contact') }}">{{__("messages.contact")}}</a> |
-                <a href="{{ url('/location') }}">{{__("messages.location")}}</a> <!--|
-            <a href="{{ url('/vervangwagens') }}">{{__("messages.vervangwagens")}}</a> |
-                <a href="{{ url('/tweedehandswagens') }}">{{__("messages.tweedehandswagens")}}</a> |
-                <a href="{{ url('/directiewagen') }}">{{__("messages.directiewagen")}}</a>-->
-        </div>
+<!-- ======= Footer ======= -->
+<footer id="footer">
 
-    </footer>
-    <section class="copyright">
-        <div class="text-center text-white">
-            &copy; 2020 Grimbergen motors. {{__("messages.rechten")}}
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 footer-contact">
+                    <h3>Grimbergen motors</h3>
+                    <p>
+                        Sint-Amandsstraat 54-56,  <br>
+                        1853 Stroombeek-Bever<br>
+                        Belgium <br><br>
+                        <strong>Phone:</strong> 02 267 19 51<br>
+                        <strong>Email:</strong> info@grimbergenmotors.be<br>
+                    </p>
+                </div>
+
+                <div class="col-lg-2 col-md-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/public/#hero">{{__("messages.home")}}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/public/#services">{{__("messages.diensten")}}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="corona">corona</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{asset('/Files/Algemene%20voorwaarden%20voor%20verkopen%20en%20herstellingen.pdf')}}">Terms of service</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="https://www.privacypolicies.com/privacy/view/61460f60c916824f9a8e778c145c6875">Privacy policy</a></li>
+                    </ul>
+                </div>
+            <!--
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>{{__("messages.diensten")}}</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Text</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Text</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Text</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Text</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Text</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 footer-newsletter">
+                    <h4>Join Our Newsletter</h4>
+                    <p>text</p>
+                    <form action="" method="post">
+                        @csrf
+                <label class="email-label" for="email"></label>
+                <input id="email" type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
         </div>
-    </section>
-</div>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+-->
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+        <div class="mr-md-auto text-center text-md-left">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Grimbergen motors</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/baker-free-onepage-bootstrap-theme/ -->
+                <p>Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> and Grimbergen motors </p>
+            </div>
+        </div>
+        <!--
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>-->
+    </div>
+</footer><!-- End Footer -->
+
+<a href="#hero" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+
+<!-- Vendor JS Files -->
+<script  src="{{asset('/vendor/jquery/jquery.min.js')}}"> </script>
+<script  src="{{asset('/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"> </script>
+<script  src="{{asset('/vendor/jquery.easing/jquery.easing.min.js')}}"> </script>
+<script  src="{{asset('/vendor/waypoints/jquery.waypoints.min.js')}}"> </script>
+<script  src="{{asset('/vendor/counterup/counterup.min.js')}}"> </script>
+<script  src="{{asset('/vendor/owl.carousel/owl.carousel.min.js')}}"> </script>
+<script  src="{{asset('/vendor/isotope-layout/isotope.pkgd.min.js')}}"> </script>
+<script  src="{{asset('/vendor/venobox/venobox.min.js')}}"> </script>
+
+<!-- Template Main JS File -->
+
+<script  type="text/javascript" src="{{asset('/js/main.js')}}"> </script>
+
 </body>
+
 </html>

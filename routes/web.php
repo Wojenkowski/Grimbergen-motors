@@ -30,6 +30,27 @@ Route::get('/heden', function () {
 Route::get('/corona', function () {
     return view("Corona");
 });
+Route::get('/merken', function () {
+    return view("merken");
+});
+Route::get('/baic', function () {
+    return view("biacModellen");
+});
+Route::get('/baic/x55', function () {
+    return view("x55");
+});
+Route::get('/baic/bj20', function () {
+    return view("bj20");
+});
+
+Route::get('/dfsk', function () {
+    return view("dfskModellen");
+});
+
+
+
+
+
 /*
 Route::get('/location', function () {
     return view("location");

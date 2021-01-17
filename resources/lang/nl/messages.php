@@ -65,4 +65,7 @@ return[
     "pastTitle"=>"Verleden van Grimbergen Motors",
     "today" =>"Heden",
     "moreInfo"=>"Meer informatie",
+    "allemerken" =>"alle merken",
+    "merken" =>"merken",
+    "model" =>"modellen",
 ];

@@ -65,4 +65,7 @@ return[
     "pastTitle"=>"Passé des Grimbergen Motors",
     "today" => "Aujourd'hui",
     "moreInfo"=>"Plus d'information",
+    "allemerken" =>"toutes les marques",
+    "merken" =>"marques",
+    "model" =>"modèles",
 ];

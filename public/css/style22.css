@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5, h6 {
     background: rgba(55, 64, 85, 0.9);
 }
 
+
 #header.header-transparent {
     background:  linear-gradient(to top,#fce300 75%, rgba(255,255,255,1) 100%);
     box-shadow: -3px -3px 3px rgba(0, 0, 0, 0.1);
@@ -146,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
     visibility: hidden;
     padding: 10px 0;
     background: #fff;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
 }
 
@@ -175,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu .drop-down > a:after {
     content: "\ea99";
-    font-family: IcoFont;
+    font-family: IcoFont, serif;
     padding-left: 5px;
 }
 
@@ -196,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu .drop-down .drop-down > a:after {
     content: "\eaa0";
-    font-family: IcoFont;
+    font-family: IcoFont, serif;
     position: absolute;
     right: 15px;
 }
@@ -275,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav .drop-down > a:after {
     content: "\ea99";
-    font-family: IcoFont;
+    font-family: IcoFont, serif;
     padding-left: 10px;
     position: absolute;
     right: 15px;
@@ -334,6 +335,9 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     position: relative;
 }
+#content{
+    margin-top: 9%;
+}
 
 #hero:before {
     content: "";
@@ -353,6 +357,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
     #hero .container {
         padding-top: 0;
+    }
+    #content{
+        margin-top: 32%;
     }
 }
 
@@ -517,7 +524,7 @@ section {
     padding: 15px 0;
     text-align: center;
     background: #fff;
-    box-shadow: 0px 2px 15px rgba(65, 76, 100, 0.06);
+    box-shadow: 0 2px 15px rgba(65, 76, 100, 0.06);
 }
 
 .clients img {
@@ -595,7 +602,7 @@ section {
     padding: 70px 20px 80px 20px;
     transition: all ease-in-out 0.3s;
     background: #fff;
-    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+    box-shadow: 0 5px 90px 0 rgba(110, 123, 131, 0.05);
 }
 
 .services .icon-box .icon {
@@ -637,7 +644,7 @@ section {
 
 .services .icon-box:hover {
     border-color: #fff;
-    box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
 .services .iconbox-blue i {
@@ -808,7 +815,6 @@ section {
     background: #fafafc;
     position: relative;
     border-radius: 6px;
-    position: relative;
     z-index: 1;
 }
 
@@ -940,7 +946,7 @@ section {
     text-align: center;
     border-radius: 5px;
     background: #fff;
-    box-shadow: 0px 2px 15px rgba(65, 76, 100, 0.06);
+    box-shadow: 0 2px 15px rgba(65, 76, 100, 0.06);
 }
 
 .team .member .member-img {
@@ -1013,14 +1019,13 @@ section {
     padding: 20px;
     background: #fff;
     text-align: center;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.12);
     border-radius: 5px;
     position: relative;
     overflow: hidden;
 }
 
 .pricing h3 {
-    font-weight: 400;
     margin: -20px -20px 20px -20px;
     padding: 20px 15px;
     font-size: 16px;
@@ -1527,7 +1532,7 @@ section {
     color: #fff;
     transition: 0.3s;
     border-radius: 50px;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
@@ -1559,3 +1564,10 @@ section {
     text-decoration: none;
 }
 
+/*--------------------------------------------------------------
+# car
+--------------------------------------------------------------*/
+.car{
+    width: 500px;
+    height: auto;
+}

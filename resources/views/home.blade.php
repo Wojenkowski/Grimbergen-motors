@@ -1,4 +1,4 @@
-@extends("master")
+@extends("Old_Master")
 
 @section("title&meta")
     <title>Grimbergen motors</title>
