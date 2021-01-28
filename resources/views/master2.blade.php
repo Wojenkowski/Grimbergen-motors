@@ -27,13 +27,13 @@
     <link  rel="shortcut icon" type="image/x-icon" href="{{asset('favicon.ico')}}"/>
 
     <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/bootstrap/css/bootstrap.min.css')}}" />
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/icofont/icofont.min.css')}}" />
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/boxicons/css/boxicons.min.css')}}" />
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/owl.carousel/assets/owl.carousel.min.css')}}" />
-    <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/venobox/venobox.css')}}" />
 
     <!-- Template Main CSS File -->
     <link  rel="stylesheet" type="text/css" href="{{asset('/css/style22.css')}}" />
@@ -47,28 +47,27 @@
 </head>
 
 <body>
-
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top header-transparent">
     <div class="container d-flex align-items-center">
 
         <!--<h1 class="logo mr-auto"><a href="index.html">Grimbergen motors</a></h1>-->
-        <a href="/" class="mr-auto"><img src="{{asset('/images/halfLogoNotCompressed.png')}}" title="Grimbergen motors logo" alt="Grimbergen motors logo" class="img-fluid" width="25%"></a>
+        <a href="/" class="mr-auto"><img  width="25%" height="auto" src="{{asset('/images/halfLogoNotCompressed.png')}}" title="Grimbergen motors logo" alt="Grimbergen motors logo" class="img-fluid"></a>
 
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
         <nav class="nav-menu d-none d-lg-block">
             <ul>
-                <li class="active"><a href="/#hero">{{__("messages.home")}}</a></li>
-                <li><a href="/#about">{{__("messages.aboutNav")}}</a></li>
-                <li><a href="/#services">{{__("messages.diensten")}}</a></li>
+                <li class="active"><a href="#hero">{{__("messages.home")}}</a></li>
+                <li><a href="#about">{{__("messages.aboutNav")}}</a></li>
+                <li><a href="#services">{{__("messages.diensten")}}</a></li>
                 <!--<li><a href="#portfolio">Portfolio</a></li>-->
                 <!--
                 <li><a href="#team">Team</a></li>
                 <li><a href="#pricing">Pricing</a></li>
                 -->
-                <li><a href="/#contact">Contact</a>
+                <li><a href="#contact">Contact</a>
                 <li class="drop-down"><a href="/merken">{{__("messages.merken")}}</a>
                     <ul>
                         <li><a href="/merken">{{__("messages.allemerken")}}</a></li>
@@ -84,7 +83,7 @@
                     </ul>
                 </li>
 
-                <li class="drop-down"><a href="#">{{__("messages.language")}}</a>
+                <li class="drop-down"><p>{{__("messages.language")}}</p>
                     <ul>
                         <li><a href="{{ url('locale/nl') }}">NL</a></li>
                         <li><a href="{{ url('locale/en') }}">EN</a></li>
@@ -97,6 +96,9 @@
 
     </div>
 </header><!-- End Header -->
+
+
+
 @yield("hero")
 <main id="main">
 
@@ -125,8 +127,8 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="/#hero">{{__("messages.home")}}</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="/#services">{{__("messages.diensten")}}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#hero">{{__("messages.home")}}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#services">{{__("messages.diensten")}}</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="corona">corona</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="{{asset('/Files/Algemene%20voorwaarden%20voor%20verkopen%20en%20herstellingen.pdf')}}">Terms of service</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="https://www.privacypolicies.com/privacy/view/61460f60c916824f9a8e778c145c6875">Privacy policy</a></li>
@@ -185,13 +187,16 @@
 
 <a href="#hero" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+<!-- Vendor JS Files -->
+<script  src="{{asset('/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"> </script>
+<script  src="{{asset('/vendor/counterup/counterup.min.js')}}"> </script>
+<script  src="{{asset('/vendor/owl.carousel/owl.carousel.min.js')}}"> </script>
+<script  src="{{asset('/vendor/isotope-layout/isotope.pkgd.min.js')}}"> </script>
+
 
 <!-- Template Main JS File -->
 
 <script src="{{asset('/js/main.js')}}"> </script>
-
 
 </body>
 

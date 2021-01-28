@@ -7,15 +7,23 @@
     <!-- ======= About Section ======= -->
     <section id="content">
         <div class="clients">
-            <h1>baic modellen</h1>
+            <h1>dfsk modellen</h1>
             <div class="row d-flex align-items-center justify-content-center">
 
-                <a href="http://www.dfsk.com/portal/index/vehiclemodel/id/50.html" target="_blank"><img src="{{asset('/images/DFSK/glory580.png')}}" class="img-fluid car" alt="glory 580" title="glory 580"></a>
+                <figure>
+                    <a href="http://www.dfsk.com/portal/index/vehiclemodel/id/50.html" target="_blank" rel=”noopener”><img src="{{asset('/images/DFSK/glory580.png')}}" class="img-fluid car" alt="glory 580" title="glory 580"></a>
+                    <figcaption><h2>glory 580</h2></figcaption>
+                </figure>
 
-                <a href="http://www.dfsk.com/portal/index/vehiclemodel/id/70.html" target="_blank"><img src="{{asset('/images/DFSK/gloryix7.png')}}" class="img-fluid car" alt="glory ix7" title="glory ix7"></a>
+                <figure>
+                    <a href="http://www.dfsk.com/portal/index/vehiclemodel/id/70.html" target="_blank" rel=”noopener”><img src="{{asset('/images/DFSK/gloryix7.png')}}" class="img-fluid car" alt="glory ix7" title="glory ix7"></a>
+                    <figcaption><h2>glory ix7</h2></figcaption>
+                </figure>
 
-                <a href="http://www.dfsk.com/portal/index/vehiclemodel/id/52.html" target="_blank"><img src="{{asset('/images/DFSK/glorys560.png')}}" class="img-fluid car" alt="glory s560" title="glory s560"></a>
-
+                <figure>
+                    <a href="http://www.dfsk.com/portal/index/vehiclemodel/id/52.html" target="_blank" rel=”noopener”><img src="{{asset('/images/DFSK/glorys560.png')}}" class="img-fluid car" alt="glory s560" title="glory s560"></a>
+                    <figcaption><h2>glory s560</h2></figcaption>
+                </figure>
             </div>
         </div>
     </section>
