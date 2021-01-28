@@ -29,7 +29,7 @@
     <!-- Google Fonts -->
 
     <!-- Vendor CSS Files -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/bootstrap/css/bootstrap.min.css')}}" />
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/icofont/icofont.min.css')}}" />
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/boxicons/css/boxicons.min.css')}}" />
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/owl.carousel/assets/owl.carousel.min.css')}}" />
@@ -58,7 +58,7 @@
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-        <nav class="nav-menu d-none d-lg-block">
+        <nav aria-label="Right Align" class="nav-menu d-none d-lg-block">
             <ul>
                 <li class="active"><a href="/#hero">{{__("messages.home")}}</a></li>
                 <li><a href="/#about">{{__("messages.aboutNav")}}</a></li>
@@ -185,9 +185,14 @@
 
 <a href="#hero" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-
+<script  src="{{asset('/vendor/jquery/jquery.min.js')}}"> </script>
+<script  src="{{asset('/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"> </script>
+<script  src="{{asset('/vendor/jquery.easing/jquery.easing.min.js')}}"> </script>
+<script  src="{{asset('/vendor/waypoints/jquery.waypoints.min.js')}}"> </script>
+<script  src="{{asset('/vendor/counterup/counterup.min.js')}}"> </script>
+<script  src="{{asset('/vendor/owl.carousel/owl.carousel.min.js')}}"> </script>
+<script  src="{{asset('/vendor/isotope-layout/isotope.pkgd.min.js')}}"> </script>
+<script  src="{{asset('/vendor/venobox/venobox.min.js')}}"> </script>
 <!-- Template Main JS File -->
 
 <script src="{{asset('/js/main.js')}}"> </script>

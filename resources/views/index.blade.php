@@ -35,7 +35,7 @@
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/icofont/icofont.min.css')}}" />
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/boxicons/css/boxicons.min.css')}}" />
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/owl.carousel/assets/owl.carousel.min.css')}}" />
-    <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/vendor/venobox/venobox.css')}}" />
+    <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/venobox/venobox.css')}}" />
 
     <!-- Template Main CSS File -->
     <link  rel="stylesheet" type="text/css" href="{{asset('/css/style22.css')}}" />
