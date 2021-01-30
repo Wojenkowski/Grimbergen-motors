@@ -24,6 +24,13 @@
                     <a href="http://www.dfsk.com/portal/index/vehiclemodel/id/52.html" target="_blank" rel=”noopener”><img src="{{asset('/images/DFSK/glorys560.png')}}" class="img-fluid car" alt="glory s560" title="glory s560"></a>
                     <figcaption><h2>glory s560</h2></figcaption>
                 </figure>
+
+                <figure>
+                    <a href="http://www.dfsk.com/portal/index/vehiclemodelmobile/id/51.html" target="_blank" rel=”noopener”><img src="{{asset('/images/DFSK/ix5.png')}}" class="img-fluid car" alt="glory ix5" title="glory ix5"></a>
+                    <figcaption><h2>glory ix5</h2></figcaption>
+                </figure>
+
+
             </div>
         </div>
     </section>
