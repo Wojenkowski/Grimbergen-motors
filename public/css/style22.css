@@ -133,6 +133,17 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+.nav-menu p {
+    display: block;
+    position: relative;
+    color: black;
+    transition: 0.3s;
+    font-size: 1.25rem;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+
+}
+
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
     color: white;
 }
@@ -170,11 +181,28 @@ h1, h2, h3, h4, h5, h6 {
     color: #414c64;
 }
 
+.nav-menu .drop-down ul p {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: none;
+    color: #414c64;
+}
+
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+    color: #ffc107;
+}
+.nav-menu .drop-down ul p:hover, .nav-menu .drop-down ul .active > p, .nav-menu .drop-down ul li:hover > p {
     color: #ffc107;
 }
 
 .nav-menu .drop-down > a:after {
+    content: "\ea99";
+    font-family: IcoFont, serif;
+    padding-left: 5px;
+}
+
+.nav-menu .drop-down > p:after {
     content: "\ea99";
     font-family: IcoFont, serif;
     padding-left: 5px;
@@ -194,8 +222,17 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu .drop-down .drop-down > a {
     padding-right: 35px;
 }
+.nav-menu .drop-down .drop-down > p {
+    padding-right: 35px;
+}
 
 .nav-menu .drop-down .drop-down > a:after {
+    content: "\eaa0";
+    font-family: IcoFont, serif;
+    position: absolute;
+    right: 15px;
+}
+.nav-menu .drop-down .drop-down > p:after {
     content: "\eaa0";
     font-family: IcoFont, serif;
     position: absolute;
@@ -210,6 +247,9 @@ h1, h2, h3, h4, h5, h6 {
         left: -100%;
     }
     .nav-menu .drop-down .drop-down > a:after {
+        content: "\ea9d";
+    }
+    .nav-menu .drop-down .drop-down > p:after {
         content: "\ea9d";
     }
 }
@@ -268,6 +308,14 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     outline: none;
 }
+.mobile-nav p {
+    display: block;
+    position: relative;
+    color: #414c64;
+    padding: 10px 20px;
+    font-weight: 500;
+    outline: none;
+}
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
     color: #ffc107;
@@ -281,12 +329,25 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     right: 15px;
 }
+.mobile-nav .drop-down > p:after {
+    content: "\ea99";
+    font-family: IcoFont, serif;
+    padding-left: 10px;
+    position: absolute;
+    right: 15px;
+}
 
 .mobile-nav .active.drop-down > a:after {
     content: "\eaa1";
 }
+.mobile-nav .active.drop-down > p:after {
+    content: "\eaa1";
+}
 
 .mobile-nav .drop-down > a {
+    padding-right: 35px;
+}
+.mobile-nav .drop-down > p {
     padding-right: 35px;
 }
 
@@ -336,7 +397,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 #content{
-    margin-top: 9%;
+    margin-top: 12%;
 }
 
 #hero:before {
@@ -359,7 +420,7 @@ h1, h2, h3, h4, h5, h6 {
         padding-top: 0;
     }
     #content{
-        margin-top: 32%;
+        margin-top: 36%;
     }
 }
 
@@ -372,7 +433,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-    color: #eee;
+    color: #fff;
     margin: 15px 0 0 0;
     font-size: 22px;
 }
@@ -454,7 +515,7 @@ section {
 .section-title p {
     margin-bottom: 0;
     font-size: 14px;
-    color: #aab3c7;
+    color: black;
 }
 
 /*--------------------------------------------------------------
@@ -569,7 +630,13 @@ section {
 
 .about p {
     font-size: 15px;
-    color: #848484;
+    color:black;
+}
+
+.about a {
+    font-size: 15px;
+    color: #D14905;
+
 }
 /*--------------------------------------------------------------
 # Counts
@@ -1318,7 +1385,7 @@ section {
     background: #ffc107;
     border: 0;
     padding: 10px 30px;
-    color: #fff;
+    color: #505050;
     transition: 0.4s;
     border-radius: 50px;
 }

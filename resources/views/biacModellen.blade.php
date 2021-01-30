@@ -9,7 +9,7 @@
         <div class="clients">
             <h1>baic modellen</h1>
             <div class="row d-flex align-items-center justify-content-center">
-                
+
                 <figure>
                     <a href="http://www.baicintl.com/html/2017/suv_1015/7.html" target="_blank" rel=”noopener”><img src="{{asset('/images/BAIC/X55G.png')}}" class="img-fluid car" alt="X55" title="X55"></a>
                     <figcaption><h2>X55</h2></figcaption>

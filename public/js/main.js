@@ -75,6 +75,12 @@
       $(this).parent().toggleClass('active');
     });
 
+      $(document).on('click', '.mobile-nav .drop-down > p', function(e) {
+          e.preventDefault();
+          $(this).next().slideToggle(300);
+          $(this).parent().toggleClass('active');
+      });
+
     $(document).click(function(e) {
       var container = $(".mobile-nav, .mobile-nav-toggle");
       if (!container.is(e.target) && container.has(e.target).length === 0) {

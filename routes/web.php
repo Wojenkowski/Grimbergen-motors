@@ -47,10 +47,6 @@ Route::get('/dfsk', function () {
     return view("dfskModellen");
 });
 
-
-
-
-
 /*
 Route::get('/location', function () {
     return view("location");

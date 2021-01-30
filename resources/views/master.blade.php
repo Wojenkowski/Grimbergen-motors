@@ -84,7 +84,7 @@
                     </ul>
                 </li>
 
-                <li class="drop-down"><a href="#">{{__("messages.language")}}</a>
+                <li class="drop-down"><p>{{__("messages.language")}}</p>
                     <ul>
                         <li><a href="{{ url('locale/nl') }}">NL</a></li>
                         <li><a href="{{ url('locale/en') }}">EN</a></li>
