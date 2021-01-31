@@ -54,7 +54,7 @@
     <div class="container d-flex align-items-center">
 
         <!--<h1 class="logo mr-auto"><a href="index.html">Grimbergen motors</a></h1>-->
-        <a href="/" class="mr-auto"><img  width="25%" height="auto" src="{{asset('/images/halfLogoNotCompressed.png')}}" title="Grimbergen motors logo" alt="Grimbergen motors logo" class="img-fluid"></a>
+        <a href="/"  class="mr-auto"><img src="{{asset('/images/halfLogoNotCompressed.png')}}" title="Grimbergen motors logo" alt="Grimbergen motors logo" class="img-fluid headerlogo"></a>
 
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->

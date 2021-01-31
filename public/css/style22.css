@@ -113,6 +113,11 @@ h1, h2, h3, h4, h5, h6 {
     list-style: none;
 }
 
+.headerlogo{
+    width: 25%;
+    height: auto;
+}
+
 .nav-menu > ul {
     display: flex;
 }
