@@ -1,4 +1,4 @@
-@extends("Old_Master")
+@extends("old.Old_Master")
 
 @section("title&meta")
     <meta name="description" content="{{__("messages.descriptionHome")}}">

@@ -1,12 +1,12 @@
 @extends("master")
 @section("title&meta")
     <meta name="description" content="{{__("messages.descriptionHome")}}">
-    <title>Grimbergen motors {{__("messages.diensten")}}</title>
+    <title>Grimbergen motors {{__("messages.allemerken")}}</title>
 @endsection
 @section("main")
     <!-- ======= About Section ======= -->
     <section id="content" class="clients">
-        <h2>merken</h2>
+        <h1>merken</h1>
         <div class="container" data-aos="zoom-in">
 
             <div class="row d-flex align-items-center justify-content-center">

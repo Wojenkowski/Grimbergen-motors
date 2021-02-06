@@ -68,4 +68,13 @@ return[
     "allemerken" =>"all brands",
     "merken" =>"brands",
     "model" =>"models",
+    "geschiedenis" =>"history",
+    "Testimonials" =>"Testimonials",
+    "subTestimonials"=>"we ask our customers what they think of my service. Don't forget to write a review on google maps",
+    "Lena"=>"Super garage 'on a human scale'. Very nice boss and very professional team who knows his job. You are well received, advised and above all the service is of quality!",
+    "Toryaly"=>"I have never found a boss like Danny who was nice and good mechanics like Yannick and saluted I thanked them.  They learn better than the other one. Thank you bcp to all three of you.",
+    "Yousef"=>"Danny, the garage owner, a professional and trustworthy man!",
+    "Jacques"=>"Welcome and service always impeccable.",
+    "Nicolas"=>"Nice little garage...friendly staff.",
+
 ];

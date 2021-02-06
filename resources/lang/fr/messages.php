@@ -68,4 +68,13 @@ return[
     "allemerken" =>"toutes les marques",
     "merken" =>"marques",
     "model" =>"modèles",
+    "geschiedenis" =>"histoire",
+    "Testimonials" =>"Témoignages",
+    "subTestimonials"=>"Nous demandons à nos clients ce qu'ils pensent de mes services. N'oubliez pas d'écrire une critique sur google maps",
+    "Lena"=>"Super garage 'à taille humaine'. Patron très sympa et équipe très professionnelle qui connait son métier. Vous êtes bien accueilli, conseillé et surtout le service est de qualité!",
+    "Toryaly"=>"J'ai jamais trouvé un patron comme Danny tre sympa Et des bon mécanicien comme Yannick et salva je remerci à eux.  Ils apprene plus mieux que l autre. Merci bcp à vous trois.",
+    "Yousef"=>"Danny, le propriétaire de garage, un homme de profession et confiance!",
+    "Jacques"=>"Accueil et service toujours impeccables.",
+    "Nicolas"=>"Chouette petit garage...personnel sympa.",
+
 ];

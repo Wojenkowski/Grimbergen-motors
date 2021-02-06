@@ -68,4 +68,12 @@ return[
     "allemerken" =>"alle merken",
     "merken" =>"merken",
     "model" =>"modellen",
+    "geschiedenis" =>"geschiedenis",
+    "Testimonials" =>"Getuigenissen",
+    "subTestimonials"=>"we vraag onze klanten wat ze van mijn dienstverlening vinden. Vergeet niet een review te schrijven op google maps",
+    "Lena"=>"Grote 'manshoge' garage. Zeer aardige baas en zeer professioneel team die zijn werk kent. U wordt ontvangen, geadviseerd en bovenal is de service van kwaliteit!",
+    "Toryaly"=>"Ik heb nog nooit een baas als Danny gevonden die aardig is en goede monteurs als Yannick en salva dank ik. Ze leren beter dan de andere. Bedankt bcp aan jullie drie.",
+    "Yousef"=>"Danny, de garagehouder, een man van beroep en vertrouwen!",
+    "Jacques"=>"Ontvangst en service altijd onberispelijk.",
+    "Nicolas"=>"Leuke kleine garage... aardig personeel.",
 ];

@@ -15,7 +15,7 @@
     <meta name="theme-color" content="#4285f4">
 
     <meta name="description" content="{{__("messages.descriptionHome")}}">
-    <title>Grimbergen motors {{__("messages.diensten")}}</title>
+    <title>Grimbergen motors</title>
     <meta content="car,Best auto repair, auto shop, car mechanic, automobile, Best care repair" name="keywords">
 
     <!-- rest css -->
@@ -360,6 +360,67 @@
     </div>
 </section>--><!-- End Portfolio Section -->
 
+<!-- ======= Testimonials Section ======= -->
+<section id="testimonials" class="testimonials">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>{{__("messages.Testimonials")}}</h2>
+            <p>{{__("messages.subTestimonials")}}</p>
+        </div>
+
+        <div class="owl-carousel testimonials-carousel">
+
+            <div class="testimonial-item">
+                <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    {{__("messages.Lena")}}
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <h3>Lena</h3>
+            </div>
+
+            <div class="testimonial-item">
+                <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    {{__("messages.Toryaly")}}
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <h3>Toryaly Tajik</h3>
+            </div>
+
+            <div class="testimonial-item">
+                <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    {{__("messages.Yousef")}}
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <h3>Yousef Behzadnia</h3>
+            </div>
+
+            <div class="testimonial-item">
+                <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    {{__("messages.Jacques")}}
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <h3>Jacques Bastin</h3>
+            </div>
+
+            <div class="testimonial-item">
+                <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    {{__("messages.Nicolas")}}
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <h3>Nicolas</h3>
+            </div>
+
+        </div>
+
+    </div>
+</section><!-- End Testimonials Section -->
+
 
 
 
@@ -534,7 +595,7 @@
                         <div class="info-box mt-4">
                             <i class="bx bx-envelope"></i>
                             <h3>Email Us</h3>
-                            <p>info@grimbergenmotors.be</p>
+                            <img src="{{asset('/images/email.png')}}" title="info@grimbergenmotors.be" alt="info@grimbergenmotors.be">
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -618,7 +679,7 @@
                         1853 Stroombeek-Bever<br>
                         Belgium <br><br>
                         <strong>Phone:</strong> 02 267 19 51<br>
-                        <strong>Email:</strong> info@grimbergenmotors.be<br>
+                        <strong>Email:</strong> <a href="mailto:info@grimbergenmotors.be" >info@grimbergenmotors.be</a><br>
                     </p>
                 </div>
 

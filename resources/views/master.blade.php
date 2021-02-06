@@ -129,7 +129,7 @@
                         <li><i class="bx bx-chevron-right"></i> <a href="/#services">{{__("messages.diensten")}}</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="corona">corona</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="{{asset('/Files/Algemene%20voorwaarden%20voor%20verkopen%20en%20herstellingen.pdf')}}">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="https://www.privacypolicies.com/privacy/view/61460f60c916824f9a8e778c145c6875">Privacy policy</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="https://www.privacypolicies.com/privacy/view/61460f60c916824f9a8e778c145c6875" target="_blank" rel=”noopener”>Privacy policy</a></li>
                     </ul>
                 </div>
             <!--
