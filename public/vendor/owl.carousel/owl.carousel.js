@@ -3013,9 +3013,8 @@
 
 		// create DOM structure for absolute navigation
 		if (!settings.dotsData) {
-			this._templates = [ $('<p role="button">')
+			this._templates = [ $('<button role="button"><span style="color:#ffc107;">&#11044;</span>')
 				.addClass(settings.dotClass)
-				.append($('<span>'))
 				.prop('outerHTML') ];
 		}
 

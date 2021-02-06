@@ -752,7 +752,7 @@
 <script  src="{{asset('/vendor/jquery.easing/jquery.easing.min.js')}}"> </script>
 <script  src="{{asset('/vendor/waypoints/jquery.waypoints.min.js')}}"> </script>
 <script  src="{{asset('/vendor/counterup/counterup.min.js')}}"> </script>
-<script  src="{{asset('/vendor/owl.carousel/owl.carousel.min.js')}}"> </script>
+<script  src="{{asset('/vendor/owl.carousel/owl.carousel.js')}}"> </script>
 <script  src="{{asset('/vendor/isotope-layout/isotope.pkgd.min.js')}}"> </script>
 <script  src="{{asset('/vendor/venobox/venobox.min.js')}}"> </script>
 
