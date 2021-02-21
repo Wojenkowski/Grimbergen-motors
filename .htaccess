@@ -4,12 +4,10 @@
   </IfModule>
     RewriteEngine On
 
-  # Redirect to www
-  RewriteCond %{HTTP_HOST} !^www\. [NC]
-  RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+  # Disable server signature
+  ServerSignature Off
 
   # Redirect to https
-
   RewriteCond %{HTTPS} !=on
   RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
   Header always set Content-Security-Policy "upgrade-insecure-requests;"

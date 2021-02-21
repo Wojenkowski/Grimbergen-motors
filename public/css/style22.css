@@ -601,7 +601,7 @@ section {
 }
 
 .clients img:hover {
-    -webkit-filter: none;
+    /*-webkit-filter: none;*/
     filter: none;
     transform: scale(1.15);
 }
@@ -1178,9 +1178,9 @@ section {
 }
 
 .pricing .featured .btn-buy {
-    background: #ffc107;
+    /*background: #ffc107;*/
     color: #fff;
-    border: 2px solid #ffc107;
+    /*border: 2px solid #ffc107;*/
 }
 
 .pricing .featured .btn-buy:hover {
@@ -1364,7 +1364,7 @@ section {
     margin: 0 10px -6px 0;
     border: 3px solid #18d26e;
     border-top-color: #eee;
-    -webkit-animation: animate-loading 1s linear infinite;
+    /*-webkit-animation: animate-loading 1s linear infinite;*/
     animation: animate-loading 1s linear infinite;
 }
 
@@ -1399,14 +1399,14 @@ section {
     background: #ffce3a;
 }
 
-@-webkit-keyframes animate-loading {
+/*@-webkit-keyframes animate-loading {
     0% {
         transform: rotate(0deg);
     }
     100% {
         transform: rotate(360deg);
     }
-}
+}*/
 
 @keyframes animate-loading {
     0% {

@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="#4285f4">
+    <meta charset="UTF-8">
 
     @yield("title&meta")
     <link rel="canonical" href="{{ url()->current() }}" />
@@ -28,6 +29,7 @@
     <link  rel="shortcut icon" type="image/x-icon" href="{{asset('favicon.ico')}}"/>
 
     <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CRaleway:300,300i,400,400i,500,500i,600,600i,700,700i%7CPoppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/bootstrap/css/bootstrap.min.css')}}" />
@@ -37,7 +39,7 @@
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/venobox/venobox.css')}}" />
 
     <!-- Template Main CSS File -->
-    <link  rel="stylesheet" type="text/css" href="{{asset('/css/style22.css')}}" />
+    <link  rel="stylesheet" type="text/css" href="{{asset('/css/style22Compressed.css')}}" />
 
     <!-- =======================================================
     * Template Name: Baker - v2.1.0

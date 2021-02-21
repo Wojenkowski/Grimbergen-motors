@@ -1,7 +1,7 @@
 /*tags*/
 
 body{
-    font-family: LL Akkurat, sans-serif, Akzidenz-Grotesk;
+    font-family: "LL Akkurat", sans-serif, Akzidenz-Grotesk;
     font-size: 1.25rem;
 }
 
@@ -252,7 +252,7 @@ textarea {
     margin: 0;
     display: block;
     opacity: 1;
-    -webkit-transition: .333s ease top, .333s ease opacity;
+    /*-webkit-transition: .333s ease top, .333s ease opacity;*/
     transition: .333s ease top, .333s ease opacity;
 }
 
