@@ -15,6 +15,7 @@
     <meta name="theme-color" content="#4285f4">
 
     @yield("title&meta")
+    <link rel="canonical" href="{{ url()->current() }}" />
     <meta content="car,Best auto repair, auto shop, car mechanic, automobile, Best care repair" name="keywords">
 
     <!-- rest css -->
@@ -71,6 +72,7 @@
                 <li><a href="/#contact">Contact</a>
                 <li class="drop-down"><a href="/merken">{{__("messages.merken")}}</a>
                     <ul>
+                        <li><a href="/stock">{{__("messages.stock")}}</a></li>
                         <li><a href="/merken">{{__("messages.allemerken")}}</a></li>
                         <li class="drop-down"><a href="/dfsk">DFSK</a>
                             <ul>
@@ -81,6 +83,12 @@
                                 <li><a href="/baic">{{__("messages.model")}}</a></li>
                             </ul>
                         </li>
+                        <li class="drop-down"><a href="/seres">SERES</a>
+                            <ul>
+                                <li><a href="/seres">{{__("messages.model")}}</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="https://oneautomotive.be/" target="_blank" rel=”noopener”>{{__("messages.invoerder")}}</a></li>
                     </ul>
                 </li>
 

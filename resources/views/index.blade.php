@@ -14,8 +14,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="#4285f4">
 
-    <meta name="description" content="{{__("messages.descriptionHome")}}">
     <title>Grimbergen motors</title>
+    <link rel="canonical" href="{{ url()->current() }}" />
+    <meta name="description" content="{{__("messages.descriptionHome")}}">
     <meta content="car,Best auto repair, auto shop, car mechanic, automobile, Best care repair" name="keywords">
 
     <!-- rest css -->
@@ -72,6 +73,7 @@
                 <li><a href="#contact">Contact</a>
                 <li class="drop-down"><a href="/merken">{{__("messages.merken")}}</a>
                     <ul>
+                        <li><a href="/stock">{{__("messages.stock")}}</a></li>
                         <li><a href="/merken">{{__("messages.allemerken")}}</a></li>
                         <li class="drop-down"><a href="/dfsk">DFSK</a>
                             <ul>
@@ -82,6 +84,12 @@
                                 <li><a href="/baic">{{__("messages.model")}}</a></li>
                             </ul>
                         </li>
+                        <li class="drop-down"><a href="/seres">SERES</a>
+                            <ul>
+                                <li><a href="/seres">{{__("messages.model")}}</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="https://oneautomotive.be/" target="_blank" rel=”noopener”>{{__("messages.invoerder")}}</a></li>
                     </ul>
                 </li>
 
@@ -120,10 +128,15 @@
                 <h3>{{__("messages.about")}}</h3>
                 <div class="row">
                     <div class="col-md-6">
+                        <i class="bx bx-cube-alt"></i>
+                        <h4>{{__("messages.past")}}</h4>
+                        <p>{{__("messages.heden1")}}</p>
+                        <p>{{__("messages.heden2")}}</p>
+                        <a href="verleden">{{__("messages.moreInfo")}} </a>
                     </div>
                     <div class="col-md-6">
                         <i class="bx bx-cube-alt"></i>
-                        <h4>{{__("messages.past")}}</h4>
+                        <h4>{{__("messages.heden")}}</h4>
                         <p>{{__("messages.past1")}}</p>
                         <p>{{__("messages.past2")}}</p>
                         <a href="heden">{{__("messages.moreInfo")}} </a>
@@ -135,7 +148,8 @@
     </div>
 </section><!-- End About Section -->
 
-<!-- ======= Counts Section ======= -->
+<!--
+ ======= Counts Section =======
 <section id="clients" class="clients">
     <h2>Partners</h2>
     <div class="container" data-aos="zoom-in">
@@ -152,7 +166,7 @@
 
         </div>
     </div>
-</section><!-- End Counts Section -->
+</section> End Counts Section -->
 
 <!-- ======= Services Section ======= -->
 <section id="services" class="services">

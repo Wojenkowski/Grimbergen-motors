@@ -21,11 +21,13 @@ Route::get('locale/{locale}', function ($locale) {
 Route::post('/sendmail','SendEmailController@send');
 
 
-
 Route::view('/', 'index');
 
 Route::get('/heden', function () {
     return view("heden");
+});
+Route::get('/verleden', function () {
+    return view("verleden");
 });
 Route::get('/corona', function () {
     return view("Corona");
@@ -45,6 +47,13 @@ Route::get('/baic/bj20', function () {
 
 Route::get('/dfsk', function () {
     return view("dfskModellen");
+});
+
+Route::get('/seres', function () {
+    return view("seresModellen");
+});
+Route::get('/stock', function () {
+    return view("stock");
 });
 
 /*
