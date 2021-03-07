@@ -62,15 +62,15 @@ Route::get('/stock/{page}', function ($slug) {
     return view("default-page", compact('page'));
 });
 */
-Route::get('/stock/Fengon', function ($slug) {
+Route::get('/stock/Fengon', function () {
     return view("stock/fengon");
 });
 
-Route::get('/stock/x55', function ($slug) {
+Route::get('/stock/x55', function () {
     return view("stock/x55");
 });
 
-Route::get('/stock/seres', function ($slug) {
+Route::get('/stock/seres', function () {
     return view("stock/seres");
 });
 
