@@ -2,38 +2,20 @@
 
 namespace App;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
+use Illuminate\Support\Str;
+use Illuminate\Database\Eloquent\Model;
 
-class User extends Authenticatable
+class Page extends Model
 {
-    use Notifiable;
+    protected $guarded= [];
 
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
-    protected $fillable = [
-        'name', 'email', 'password',
-    ];
 
-    /**
-     * The attributes that should be hidden for arrays.
-     *
-     * @var array
-     */
-    protected $hidden = [
-        'password', 'remember_token',
-    ];
+    public static function findSlug($slug)
+    {
 
-    /**
-     * The attributes that should be cast to native types.
-     *
-     * @var array
-     */
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-    ];
+        return new Page([
+            'title'=>Str::title(str_replace("-",' ',$slug)),
+            'slug'=> $slug
+        ]);
+    }
 }

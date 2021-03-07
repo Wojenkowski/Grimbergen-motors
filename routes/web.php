@@ -55,6 +55,24 @@ Route::get('/seres', function () {
 Route::get('/stock', function () {
     return view("stock");
 });
+/*
+Route::get('/stock/{page}', function ($slug) {
+    $page = \App\Page::findSlug($slug);
+
+    return view("default-page", compact('page'));
+});
+*/
+Route::get('/stock/Fengon', function ($slug) {
+    return view("stock/fengon");
+});
+
+Route::get('/stock/x55', function ($slug) {
+    return view("stock/x55");
+});
+
+Route::get('/stock/seres', function ($slug) {
+    return view("stock/seres");
+});
 
 /*
 Route::get('/location', function () {

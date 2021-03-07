@@ -10,8 +10,8 @@
             <h1>Fengon</h1>
             <div class="row d-flex align-items-center justify-content-center">
                 <figure>
-                    <a href="https://dfsk-motors.be/modellen/fengon/" target="_blank" rel=”noopener”><img src="{{asset('/images/DFSK/DFSKFengon.png')}}" class="img-fluid car" alt="X55" title="X55"></a>
-                    <figcaption><h2>DSFK fengon</h2></figcaption>
+                    <a href="http://www.baicintl.com/html/2017/suv_1015/7.html" target="_blank" rel=”noopener”><img src="{{asset('/images/BAIC/X55G.png')}}" class="img-fluid car" alt="X55" title="X55"></a>
+                    <figcaption><h2>BAIC X55</h2></figcaption>
                 </figure>
             </div>
         </div>

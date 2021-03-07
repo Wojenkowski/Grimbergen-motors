@@ -10,8 +10,8 @@
             <h1>Fengon</h1>
             <div class="row d-flex align-items-center justify-content-center">
                 <figure>
-                    <a href="https://dfsk-motors.be/modellen/fengon/" target="_blank" rel=”noopener”><img src="{{asset('/images/DFSK/DFSKFengon.png')}}" class="img-fluid car" alt="X55" title="X55"></a>
-                    <figcaption><h2>DSFK fengon</h2></figcaption>
+                    <a href="http://www.dfsk.com/portal/index/vehiclemodelmobile/id/66.html" target="_blank" rel=”noopener”><img src="{{asset('/images/SERES/seres5.png')}}" class="img-fluid car" alt="seres 5" title="seres 5"></a>
+                    <figcaption><h2>seres 5</h2></figcaption>
                 </figure>
             </div>
         </div>

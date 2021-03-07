@@ -13,7 +13,6 @@
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="#4285f4">
-    <meta charset="UTF-8">
 
     <title>Grimbergen motors</title>
     <link rel="canonical" href="{{ url()->current() }}" />
@@ -32,15 +31,18 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CRaleway:300,300i,400,400i,500,500i,600,600i,700,700i%7CPoppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
+    <!-- Vendor CSS Files
+    <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/venobox/venobox.css')}}" />-->
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/bootstrap/css/bootstrap.min.css')}}" />
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/icofont/icofont.min.css')}}" />
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/boxicons/css/boxicons.min.css')}}" />
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/owl.carousel/assets/owl.carousel.min.css')}}" />
-    <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/venobox/venobox.css')}}" />
+
+
+
 
     <!-- Template Main CSS File -->
-    <link  rel="stylesheet" type="text/css" href="{{asset('/css/style22Compressed.css')}}" />
+    <link  rel="stylesheet" type="text/css" href="{{asset('/css/style22.css')}}" />
 
     <!-- =======================================================
     * Template Name: Baker - v2.1.0
@@ -50,7 +52,7 @@
     ======================================================== -->
 </head>
 
-<body>
+<body class="scroll-container">
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top header-transparent">
     <div class="container d-flex align-items-center">
@@ -61,8 +63,8 @@
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-        <nav class="nav-menu d-none d-lg-block">
-            <ul>
+        <nav class="nav-menu d-none d-lg-block " >
+            <ul >
                 <li><a href="#hero">{{__("messages.home")}}</a></li>
                 <li><a href="#about">{{__("messages.aboutNav")}}</a></li>
                 <li><a href="#services">{{__("messages.diensten")}}</a></li>
@@ -71,7 +73,7 @@
                 <li><a href="#team">Team</a></li>
                 <li><a href="#pricing">Pricing</a></li>
                 -->
-                <li><a href="#contact">Contact</a>
+                <li><a href="#contact">Contact</a></li>
                 <li class="drop-down"><a href="/merken">{{__("messages.merken")}}</a>
                     <ul>
                         <li><a href="/stock">{{__("messages.stock")}}</a></li>
@@ -101,7 +103,6 @@
                         <li><a href="{{ url('locale/fr') }}">FR</a></li>
                     </ul>
                 </li>
-
             </ul>
         </nav><!-- .nav-menu -->
 
@@ -761,19 +762,22 @@
 
 <a href="#hero" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
 
-<!-- Vendor JS Files -->
-<script  src="{{asset('/vendor/jquery/jquery.min.js')}}"> </script>
+<!-- Vendor JS Files
 <script  src="{{asset('/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"> </script>
-<script  src="{{asset('/vendor/jquery.easing/jquery.easing.min.js')}}"> </script>
-<script  src="{{asset('/vendor/waypoints/jquery.waypoints.min.js')}}"> </script>
+
 <script  src="{{asset('/vendor/counterup/counterup.min.js')}}"> </script>
-<script  src="{{asset('/vendor/owl.carousel/owl.carousel.js')}}"> </script>
-<script  src="{{asset('/vendor/isotope-layout/isotope.pkgd.min.js')}}"> </script>
+<script  src="{{asset('/vendor/waypoints/jquery.waypoints.min.js')}}"> </script>
 <script  src="{{asset('/vendor/venobox/venobox.min.js')}}"> </script>
+<script  src="{{asset('/vendor/isotope-layout/isotope.pkgd.min.js')}}"> </script>
+<script  src="{{asset('/vendor/jquery.easing/jquery.easing.min.js')}}"> </script>
 
+-->
 
-<!-- Template Main JS File -->
-<script src="{{asset('/js/main.js')}}"> </script>
+<script  src="{{asset('/vendor/jquery/jquery.min.js')}}"> </script>
+<script  src="{{asset('/vendor/owl.carousel/owl.carousel.js')}}"> </script>
+
+<!-- Main JS File -->
+<script src="{{asset('/js/main2.js')}}"> </script>
 
 </body>
 
