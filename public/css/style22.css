@@ -8,6 +8,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
@@ -1640,5 +1644,11 @@ section {
 --------------------------------------------------------------*/
 .car{
     width: 500px;
+    height: auto;
+}
+
+/*stock*/
+.thumbnail img{
+    width: 450px;
     height: auto;
 }

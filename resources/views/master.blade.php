@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="#4285f4">
-    <meta charset="UTF-8">
+
 
     @yield("title&meta")
     <link rel="canonical" href="{{ url()->current() }}" />
@@ -39,7 +39,7 @@
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/venobox/venobox.css')}}" />
 
     <!-- Template Main CSS File -->
-    <link  rel="stylesheet" type="text/css" href="{{asset('/css/style22Compressed.css')}}" />
+    <link  rel="stylesheet" type="text/css" href="{{asset('/css/style22.css')}}" />
 
     <!-- =======================================================
     * Template Name: Baker - v2.1.0
@@ -71,7 +71,7 @@
                 <li><a href="#team">Team</a></li>
                 <li><a href="#pricing">Pricing</a></li>
                 -->
-                <li><a href="/#contact">Contact</a>
+                <li><a href="/#contact">Contact</a></li>
                 <li class="drop-down"><a href="/merken">{{__("messages.merken")}}</a>
                     <ul>
                         <li><a href="/stock">{{__("messages.stock")}}</a></li>
