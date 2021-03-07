@@ -1,12 +1,1 @@
-"use strict";
-
-document.addEventListener('DOMContentLoaded', init);
-
-
-function init() {
-
-    console.log("hell world")
-
-
-}
-
+"use strict";function init(){const o=document.querySelectorAll(".nav-menu a, .mobile-nav a, .scrollto");for(let e=0;e<o.length;e++)o[e].addEventListener("click",SmoothScroll);window.onscroll=function(){scrollFunction()},function(o){if(o(".testimonials-carousel").owlCarousel({autoplay:!0,dots:!0,loop:!0,responsive:{0:{items:1},768:{items:2},900:{items:3}}}),o(".nav-menu").length){var e=o(".nav-menu").clone().prop({class:"mobile-nav d-lg-none"});o("body").append(e),o("body").prepend('<button type="button" class="mobile-nav-toggle d-lg-none" aria-label="Right Align"><i class="icofont-navigation-menu"></i></button>'),o("body").append('<div class="mobile-nav-overly"></div>'),o(document).on("click",".mobile-nav-toggle",function(e){o("body").toggleClass("mobile-nav-active"),o(".mobile-nav-toggle i").toggleClass("icofont-navigation-menu icofont-close"),o(".mobile-nav-overly").toggle()}),o(document).on("click",".mobile-nav .drop-down > a",function(e){e.preventDefault(),o(this).next().slideToggle(300),o(this).parent().toggleClass("active")}),o(document).on("click",".mobile-nav .drop-down > p",function(e){e.preventDefault(),o(this).next().slideToggle(300),o(this).parent().toggleClass("active")}),o(document).click(function(e){var t=o(".mobile-nav, .mobile-nav-toggle");t.is(e.target)||0!==t.has(e.target).length||o("body").hasClass("mobile-nav-active")&&(o("body").removeClass("mobile-nav-active"),o(".mobile-nav-toggle i").toggleClass("icofont-navigation-menu icofont-close"),o(".mobile-nav-overly").fadeOut())})}else o(".mobile-nav, .mobile-nav-toggle").length&&o(".mobile-nav, .mobile-nav-toggle").hide();o(".testimonials-carousel").owlCarousel({autoplay:!0,dots:!0,loop:!0,responsive:{0:{items:1},768:{items:2},900:{items:3}}})}(jQuery)}function SmoothScroll(o){if(location.pathname.replace(/^\//,"")===this.pathname.replace(/^\//,"")&&location.hostname===this.hostname){o.preventDefault();const e=-190,t=document.getElementById(this.hash.substring(1)).getBoundingClientRect().top+window.pageYOffset+e;window.scrollTo({top:t})}}function scrollFunction(){const o=document.querySelectorAll(".back-to-top")[0];document.body.scrollTop>200||document.documentElement.scrollTop>200?o.style.display="block":o.style.display="none"}document.addEventListener("DOMContentLoaded",init);
