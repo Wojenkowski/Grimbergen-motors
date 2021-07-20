@@ -1,7 +1,7 @@
 @extends("master")
 @section("title&meta")
     <meta name="description" content="{{__("messages.descriptionStock")}}">
-    <title>Grimbergen motors Stock Fengon</title>s
+    <title>Grimbergen motors Stock x55</title>s
 @endsection
 @section("main")
     <!-- ======= About Section ======= -->

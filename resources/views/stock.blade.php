@@ -14,8 +14,8 @@
                     <figcaption><h2>DSFK fengon</h2></figcaption>
                 </figure>
                 <figure>
-                    <a href="stock/seres/"><img src="{{asset('/images/SERES/seres5.png')}}" class="img-fluid car" alt="seres 5" title="seres 5"></a>
-                    <figcaption><h2>seres 5</h2></figcaption>
+                    <a href="stock/seres/"><img src="{{asset('/images/SERES/seres3.png')}}" class="img-fluid car" alt="seres 3" title="seres 3"></a>
+                    <figcaption><h2>seres 3</h2></figcaption>
                 </figure>
 
                 <figure>

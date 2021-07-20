@@ -7,32 +7,13 @@
     <!-- ======= About Section ======= -->
     <section id="content">
         <div class="clients">
-            <h1>baic {{__("messages.model")}}</h1>
-            <div class="row d-flex align-items-center justify-content-center">
-
-                <figure>
-                    <a href="http://www.baicintl.com/html/2017/suv_1015/7.html" target="_blank" rel=”noopener”><img src="{{asset('/images/BAIC/X55.png')}}" class="img-fluid car" alt="X55" title="X55"></a>
-                    <figcaption><h2>X55</h2></figcaption>
-                </figure>
-
-            </div>
-         </div>
-        <div class="clients">
-            <h2>{{__("messages.weldra")}}</h2>
+            <h1>{{__("messages.weldra")}}</h1>
             <div class="row d-flex align-items-center justify-content-center">
                 <figure>
-                    <a href="https://baic-motor.be/modellen/x35/" target="_blank" rel=”noopener”><img src="{{asset('/images/BAIC/X35.png')}}" class="img-fluid car" alt="X35" title="X35"></a>
-                    <figcaption><h2>X35</h2></figcaption>
+                    <a href="http://www.faw.com/fawen/ppycp7968/passenger_cars/5293324/index.html" target="_blank" rel=”noopener”><img src="{{asset('/images/FAW/t77.png')}}" class="img-fluid car" alt="t77" title="t77"></a>
+                    <figcaption><h2>t77</h2></figcaption>
                 </figure>
 
-                <figure>
-                    <a href="https://www.wautom.com/2018/09/gallery-baic-senova-ex5-electric-car/" target="_blank" rel=”noopener”><img src="{{asset('/images/BAIC/EX5.png')}}" class="img-fluid car" alt="EX5" title="EX5"></a>
-                    <figcaption><h2>EX5</h2></figcaption>
-                </figure>
-                <figure>
-                    <a href="https://www.wautom.com/2020/05/baic-beijing-x7-suv/" target="_blank" rel=”noopener”><img src="{{asset('/images/BAIC/X7.png')}}" class="img-fluid car" alt=X7" title="X57"></a>
-                    <figcaption><h2>X7</h2></figcaption>
-                </figure>
             </div>
         </div>
      </section>

@@ -23,12 +23,84 @@ Route::post('/sendmail','SendEmailController@send');
 
 Route::view('/', 'index');
 
-Route::get('/heden', function () {
-    return view("heden");
+#recent-verleden
+Route::get('/recent-verleden', function () {
+    if(session()->get('locale') == 'fr'){
+        return redirect('fr/passé-récent');
+    }elseif(session()->get('locale') == 'en') {
+        return redirect('en/recent-past');
+    }
+    return view("recent verleden/heden");
 });
+Route::get('fr/passé-récent', function () {
+    if(session()->get('locale') == 'nl'){
+        return redirect('/recent-verleden');
+    }elseif(session()->get('locale') == 'en') {
+        return redirect('en/recent-past');
+    }
+    return view("recent verleden/passéRécent");
+});
+Route::get('en/recent-past', function () {
+    if(session()->get('locale') == 'nl'){
+        return redirect('/recent-verleden');
+    }elseif(session()->get('locale') == 'fr') {
+        return redirect('fr/passé-récent');
+    }
+    return view("recent verleden/recentPast");
+});
+
+#verleden
 Route::get('/verleden', function () {
-    return view("verleden");
+    if(session()->get('locale') == 'fr'){
+        return redirect('fr/passé');
+    }elseif(session()->get('locale') == 'en') {
+        return redirect('en/passed');
+    }
+    return view("verleden/verleden");
 });
+Route::get('fr/passé', function () {
+    if(session()->get('locale') == 'nl'){
+        return redirect('verleden');
+    }elseif(session()->get('locale') == 'en') {
+        return redirect('en/passed');
+    }
+    return view("verleden/passé");
+});
+Route::get('en/passed', function () {
+    if(session()->get('locale') == 'fr'){
+        return redirect('fr/passé');
+    }elseif(session()->get('locale') == 'nl') {
+        return redirect('verleden');
+    }
+    return view("verleden/passed");
+});
+
+#Mea culpa
+Route::get('/Mea-culpa', function () {
+    if(session()->get('locale') == 'fr'){
+        return redirect('fr/Mea-culpa');
+    }elseif(session()->get('locale') == 'en') {
+        return redirect('en/Mea-culpa');
+    }
+    return view("Mea culpa/MeaNl");
+});
+Route::get('en/Mea-culpa', function () {
+    if(session()->get('locale') == 'fr'){
+        return redirect('fr/Mea-culpa');
+    }elseif(session()->get('locale') == 'nl') {
+        return redirect('Mea-culpa');
+    }
+    return view("Mea culpa/MeaEn");
+});
+Route::get('fr/Mea-culpa', function () {
+    if(session()->get('locale') == 'en'){
+        return redirect('en/Mea-culpa');
+    }elseif(session()->get('locale') == 'nl') {
+        return redirect('Mea-culpa');
+    }
+    return view("Mea culpa/MeaFr");
+});
+
 Route::get('/corona', function () {
     return view("Corona");
 });
@@ -52,8 +124,32 @@ Route::get('/dfsk', function () {
 Route::get('/seres', function () {
     return view("seresModellen");
 });
+Route::get('/faw', function () {
+    return view("fawModellen");
+});
 Route::get('/stock', function () {
     return view("stock");
+});
+
+Route::get('/begin', function () {
+    if(session()->get('locale') == 'fr'){
+        return view("commencer");
+    }elseif(session()->get('locale') == "nl"){
+        return view("begin");
+    }else{
+        return view("welcome");
+    }
+
+});
+
+Route::get('/tweedehandswagens', function () {
+    return view("tweedehandswagens");
+});
+Route::get('/tweedehandswagens/scenic3', function () {
+    return view("tweedehandswagens/scenic3");
+});
+Route::get('/tweedehandswagens/cabrio', function () {
+    return view("tweedehandswagens/cabrio");
 });
 /*
 Route::get('/stock/{page}', function ($slug) {

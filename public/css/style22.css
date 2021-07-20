@@ -8,6 +8,32 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWyV9hmIqOjjg.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/raleway/v19/1Ptsg8zYS_SKggPNyCg4SYFqPfE.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiDyp8kv8JHgFVrJJLm21lVFteOcEg.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+    font-display: swap;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -100,10 +126,18 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
     max-height: 40px;
 }
+.headerlogo{
+    width: 104px;
+    height: 151px;
+}
 
 @media (max-width: 992px) {
     #header .logo {
         font-size: 28px;
+    }
+    .headerlogo{
+        width: 79px;
+        height: 114px;
     }
 }
 
@@ -117,10 +151,7 @@ h1, h2, h3, h4, h5, h6 {
     list-style: none;
 }
 
-.headerlogo{
-    width: 25%;
-    height: auto;
-}
+
 
 .nav-menu > ul {
     display: flex;
@@ -647,6 +678,17 @@ section {
     color: #D14905;
 
 }
+.aboutLogo{
+    width: 350px;
+    height: 618px;
+}
+@media (max-width: 768px) {
+    .aboutLogo{
+        width: 250px;
+        height: 440px;
+    }
+}
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/

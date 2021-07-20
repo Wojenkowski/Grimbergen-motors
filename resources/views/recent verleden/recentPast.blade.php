@@ -7,11 +7,10 @@
     <!-- ======= About Section ======= -->
     <section id="content">
         <div class="container">
-            <h1>{{__("messages.pastTitle2")}}</h1>
-            <p>{{__("messages.notinenglish")}}</p>
-            <object width="100%" height="980px" type="application/pdf" data="{{__("messages.pdf1")}}?#zoom=85&scrollbar=0&toolbar=0&navpanes=0">
-                <p>Insert your error message here, if the PDF cannot be displayed.</p>
-            </object>
+            <h1>Recent past</h1>
+            <p>
+                coming soon in english, you can ready the dutch of french version in the mean while.
+            </p>
 
          </div>
      </section>

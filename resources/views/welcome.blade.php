@@ -6,12 +6,14 @@
 @section("main")
     <!-- ======= About Section ======= -->
     <section id="content" class="clients">
-        <h1>Hartelijk welkom</h1>
+        <h1>A warm welcome</h1>
         <div class="container" data-aos="zoom-in">
             <div class="row d-flex align-items-center text-left">
-                    <p>Hartelijk welkom</p>
-                    <p>Welkom op de website van <strong>Grimbergen Motors BV.</strong></p>
-                <p class="">Inderdaad, zoals U kan vaststellen zijn wij sinds 1 januari 2020 geen lokale verdeler meer voor de merken <strong>Renault</strong> en <strong>Dacia</strong>, maar niet getreurd; wij onderhouden en herstellen deze nog steeds en nu zelfs veel <strong>goedkoper</strong> dan ooit tevoren.  Wij maken U graag een offerte ter bevestiging om zodoende samen winst te boeken.</p>
+                    <p>Warm welcome</p>
+                    <p>Welcome to the website of <strong>Grimbergen Motors BV. </strong> </p>
+
+                <p> This welcome page is only available in dutch and french.</p>
+                <p>Inderdaad, zoals U kan vaststellen zijn wij sinds 1 januari 2020 geen lokale verdeler meer voor de merken <strong>Renault</strong> en <strong>Dacia</strong>, maar niet getreurd; wij onderhouden en herstellen deze nog steeds en nu zelfs veel <strong>goedkoper</strong> dan ooit tevoren.  Wij maken U graag een offerte ter bevestiging om zodoende samen winst te boeken.</p>
                     <p>
                         Voor de aanschaf van een nieuw voertuig echter zijn wij zeer trots U te kunnen mededelen dat wij
                         sinds 4 januari 2021 <strong>concessiehouder</strong> zijn van de merken <strong>BAIC, DFSK, SERES</strong> en <strong>FAW</strong>, merken die in

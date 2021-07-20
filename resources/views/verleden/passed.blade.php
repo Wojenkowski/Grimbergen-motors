@@ -10,7 +10,7 @@
             <h1>Past of Grimbergen Motors</h1>
 
             <p>
-                coming soon in english, you can ready the dutch of french version in the mean while.
+                coming soon in english, you can read the dutch of french version in the mean while.
             </p>
 
 

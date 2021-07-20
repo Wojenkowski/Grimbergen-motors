@@ -4,13 +4,9 @@
   </IfModule>
     RewriteEngine On
 
-  # Disable server signature
-  ServerSignature Off
-
   # Redirect to https
   RewriteCond %{HTTPS} !=on
   RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
-  Header always set Content-Security-Policy "upgrade-insecure-requests;"
 
   # Redirect to www
   RewriteCond %{HTTP_HOST} ^[^.]+\.[^.]+$
@@ -30,6 +26,30 @@
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteRule ^ index.php [L]
+
+  Header set Strict-Transport-Security "max-age=31536000; includeSubDomains" env=HTTPS
+  Header always set Content-Security-Policy "upgrade-insecure-requests;"
+  Header set Content-Security-Policy "upgrade-insecure-requests" env=HTTPS
+  Header set X-Content-Type-Options "nosniff"
+  Header unset "X-Powered-By"
+  Header set X-Permitted-Cross-Domain-Policies "none"
+  <FilesMatch "\.(htm|html|php)$">
+      Header set X-Frame-Options "SAMEORIGIN"
+      Header set X-XSS-Protection "1; mode=block"
+  </FilesMatch>
+
+  #hier kan nog veel meer ingevoegs worden
+  Header always set Feature-Policy " microphone 'none'"
+  Header set Referrer-Policy "no-referrer"
+
+  <IfModule mod_headers.c>
+    Header unset ETag
+  </IfModule>
+   FileETag None
+   Header always unset X-Powered-By
+
+  # Disable server signature
+  ServerSignature Off
 </IfModule>
 
     # Block access to "hidden" directories or files whose names begin with a

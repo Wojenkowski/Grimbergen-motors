@@ -7,10 +7,10 @@
     <!-- ======= About Section ======= -->
     <section id="content">
         <div class="container">
-            <h1>{{__("messages.Mea culpa")}}</h1>
-            <object width="100%" height="980px" type="application/pdf" data="{{asset('/Files/Mea culpa.pdf')}}?#scrollbar=0&toolbar=0&navpanes=0">
-                <p>Insert your error message here, if the PDF cannot be displayed.</p>
-            </object>
+            <h1>Mea culpa, mea culpa, mea maxima culpa</h1>
+            <p>
+                coming soon in english, you can ready the dutch version in the mean while.
+            </p>
 
          </div>
      </section>

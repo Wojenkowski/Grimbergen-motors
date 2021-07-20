@@ -10,16 +10,17 @@
     "require": {
         "php": "^7.3",
         "fideloper/proxy": "^4.4.1",
-        "jacobbennett/laravel-http2serverpush": "^5.0.3",
         "fruitcake/laravel-cors": "^2.0.3",
         "guzzlehttp/guzzle": "^7.2.0",
-        "laravel/framework": "^8.28.1",
-        "laravel/tinker": "^2.6.0",
+        "jacobbennett/laravel-http2serverpush": "^5.0",
+        "laravel/framework": "^8.31.0",
+        "laravel/tinker": "^2.6.1",
+        "renatomarinho/laravel-page-speed": "^2.0",
         "silber/page-cache": "^1.0.7"
     },
     "require-dev": {
-        "facade/ignition": "^2.5.13",
-        "mockery/mockery": "^1.4.2",
+        "facade/ignition": "^2.5.14",
+        "mockery/mockery": "^1.4.3",
         "nunomaduro/collision": "^5.3.0",
         "phpunit/phpunit": "^9.5.2"
     },

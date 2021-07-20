@@ -2,19 +2,11 @@
 <html lang="{{app()->getLocale()}}">
 <head>
     <meta charset="utf-8">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180268137-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-180268137-1');
-    </script>
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="#4285f4">
 
-    <title>Grimbergen motors</title>
+    <title>Garage Grimbergen motors</title>
     <link rel="canonical" href="{{ url()->current() }}" />
     <meta name="description" content="{{__("messages.descriptionHome")}}">
     <meta content="car,Best auto repair, auto shop, car mechanic, automobile, Best care repair" name="keywords">
@@ -22,14 +14,10 @@
     <!-- rest css -->
     <link  rel="stylesheet" type="text/css" href="{{asset('/css/resetCompressed.css')}}" />
 
-    <!-- Favicons
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">-->
+    <!-- Favicons-->
     <link rel="apple-touch-icon" sizes="120x120" href="{{asset('apple-touch-icon-120x120-precomposed.png')}}" />
     <link rel="apple-touch-icon" sizes="152x152" href="{{asset('apple-touch-icon-152x152-precomposed.png')}}" />
     <link  rel="shortcut icon" type="image/x-icon" href="{{asset('favicon.ico')}}"/>
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CRaleway:300,300i,400,400i,500,500i,600,600i,700,700i%7CPoppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/venobox/venobox.css')}}" />-->
@@ -37,8 +25,6 @@
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/icofont/icofont.min.css')}}" />
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/boxicons/css/boxicons.min.css')}}" />
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/owl.carousel/assets/owl.carousel.min.css')}}" />
-
-
 
 
     <!-- Template Main CSS File -->
@@ -58,7 +44,7 @@
     <div class="container d-flex align-items-center">
 
         <!--<h1 class="logo mr-auto"><a href="index.html">Grimbergen motors</a></h1>-->
-        <a href="/"  class="mr-auto"><img src="{{asset('/images/halfLogoNotCompressed.png')}}" title="Grimbergen motors logo" alt="Grimbergen motors logo" class="img-fluid headerlogo"></a>
+        <a href="/"  class="mr-auto"><img src="{{asset('/images/halfLogo-min.png')}}" title="Grimbergen motors logo" alt="Grimbergen motors logo" class="headerlogo"></a>
 
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -66,7 +52,7 @@
         <nav class="nav-menu d-none d-lg-block " >
             <ul >
                 <li><a href="#hero">{{__("messages.home")}}</a></li>
-                <li><a href="#about">{{__("messages.aboutNav")}}</a></li>
+                <!--<li><a href="#about">{{__("messages.aboutNav")}}</a></li>-->
                 <li><a href="#services">{{__("messages.diensten")}}</a></li>
                 <!--<li><a href="#portfolio">Portfolio</a</li>-->
                 <!--
@@ -74,9 +60,17 @@
                 <li><a href="#pricing">Pricing</a></li>
                 -->
                 <li><a href="#contact">Contact</a></li>
+                <li class="drop-down"><p>{{__("messages.geschiedenis")}}</p>
+                    <ul>
+                        <li><a href="/{{__("messages.routeVerleden")}}">{{__("messages.past")}}</a></li>
+                        <li><a href="/{{__("messages.routeRecent")}}">{{__("messages.heden")}}</a></li>
+                        <li><a href="/{{__("messages.routeMea")}}">Mea Culpa</a></li>
+                    </ul>
+                </li>
+
                 <li class="drop-down"><a href="/merken">{{__("messages.merken")}}</a>
                     <ul>
-                        <li><a href="/stock">{{__("messages.stock")}}</a></li>
+
                         <li><a href="/merken">{{__("messages.allemerken")}}</a></li>
                         <li class="drop-down"><a href="/dfsk">DFSK</a>
                             <ul>
@@ -92,9 +86,26 @@
                                 <li><a href="/seres">{{__("messages.model")}}</a></li>
                             </ul>
                         </li>
+                        <li class="drop-down"><a href="/faw">FAW</a>
+                            <ul>
+                                <li><a href="/faw">{{__("messages.model")}}</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/stock">{{__("messages.stock")}}</a></li>
+                        <li><a href="/tweedehandswagens">{{__("messages.stock2")}}</a></li>
                         <li><a href="https://oneautomotive.be/" target="_blank" rel=”noopener”>{{__("messages.invoerder")}}</a></li>
                     </ul>
                 </li>
+
+                <li class="drop-down"><p>{{__("messages.fabricanten")}}</p>
+                    <ul>
+                        <li><a href="http://www.dfsk.com/" target="_blank" rel=”noopener”>DFSK</a></li>
+                        <li><a href="https://www.baicintl.com/" target="_blank" rel=”noopener”>BAIC</a></li>
+                        <li><a href="https://www.driveseres.be/" target="_blank" rel=”noopener”>SERES</a></li>
+                        <li><a href="http://www.faw.com/fawen/index/index.html" target="_blank" rel=”noopener”>FAW</a></li>
+                    </ul>
+                </li>
+
 
                 <li class="drop-down"><p>{{__("messages.language")}}</p>
                     <ul>
@@ -114,34 +125,40 @@
     <div class="container position-relative">
         <h1>{{__("messages.welcome")}}</h1>
         <h2>{{__("messages.missie")}}</h2>
-        <a href="#about" class="btn-get-started scrollto">{{__("messages.getStated")}}</a>
+        <a href="/begin" class="btn-get-started scrollto">{{__("messages.getStated")}}</a>
     </div>
 </section><!-- End Hero -->
-
 <!-- ======= About Section ======= -->
 <section id="about" class="about">
     <div class="container">
 
         <div class="row text-center">
             <div class="col-lg-6 ">
-                <img src="{{asset('/images/fullLogoNotCompressed.png')}}" title="Grimbergen motors logo" alt="Grimbergen motors logo" class="img-fluid w-50">
+                <img src="{{asset('/images/fullLogo-min.png')}}" title="Grimbergen motors logo" alt="Grimbergen motors logo" class="aboutLogo">
             </div>
             <div class="col-lg-6 text-lg-left pt-4 pt-lg-0 ">
                 <h3>{{__("messages.about")}}</h3>
                 <div class="row">
                     <div class="col-md-6">
-                        <i class="bx bx-cube-alt"></i>
+                        <i class="bx bx-alarm"></i>
                         <h4>{{__("messages.past")}}</h4>
                         <p>{{__("messages.heden1")}}</p>
                         <p>{{__("messages.heden2")}}</p>
-                        <a href="verleden">{{__("messages.moreInfo")}} </a>
+                        <a href="{{__("messages.routeVerleden")}}">{{__("messages.moreInfo2")}} </a>
                     </div>
                     <div class="col-md-6">
                         <i class="bx bx-cube-alt"></i>
                         <h4>{{__("messages.heden")}}</h4>
                         <p>{{__("messages.past1")}}</p>
                         <p>{{__("messages.past2")}}</p>
-                        <a href="heden">{{__("messages.moreInfo")}} </a>
+                        <a href="{{__("messages.routeRecent")}}">{{__("messages.moreInfo")}} </a>
+                    </div>
+                    <div class="col-md-6">
+                        <i class="bx bx-select-multiple"></i>
+                        <h4>{{__("messages.MeaCulpa")}}</h4>
+                        <p>{{__("messages.MeaCulpa1")}}</p>
+                        <p>{{__("messages.MeaCulpa2")}}</p>
+                        <a href="{{__("messages.routeMea")}}">{{__("messages.moreInfo3")}} </a>
                     </div>
                 </div>
             </div>
@@ -596,7 +613,7 @@
                         <div class="info-box">
                             <i class="bx bx-map"></i>
                             <h3>{{__("messages.adres")}}</h3>
-                            <p>Sint-Amandsstraat 54-56, 1853 Stroombeek-Bever</p>
+                            <p>Sint-Amandsstraat 54-56, 1853 Strombeek-Bever</p>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -610,14 +627,14 @@
                     <div class="col-md-6">
                         <div class="info-box mt-4">
                             <i class="bx bx-envelope"></i>
-                            <h3>Email Us</h3>
+                            <h3>{{__("messages.email ons")}}</h3>
                             <img src="{{asset('/images/email.png')}}" title="info@grimbergenmotors.be" alt="info@grimbergenmotors.be">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="info-box mt-4">
                             <i class="bx bx-phone-call"></i>
-                            <h3>Call Us</h3>
+                            <h3>{{__("messages.call us")}}</h3>
                             <p>02 267 19 51</p>
                         </div>
                     </div>
@@ -692,7 +709,7 @@
                     <h3>Grimbergen motors</h3>
                     <p>
                         Sint-Amandsstraat 54-56,  <br>
-                        1853 Stroombeek-Bever<br>
+                        1853 Strombeek-Bever<br>
                         Belgium <br><br>
                         <strong>Phone:</strong> 02 267 19 51<br>
                         <strong>Email:</strong>info<!-- >@. -->@<!-- >@. -->grimbergenmotors<!-- >@. -->.<!-- >@. -->be<br>
@@ -700,13 +717,13 @@
                 </div>
 
                 <div class="col-lg-2 col-md-6 footer-links">
-                    <h4>Useful Links</h4>
+                    <h4>{{__("messages.links")}}</h4>
                     <ul>
                         <li><i class="bx bx-chevron-right"></i> <a href="#hero">{{__("messages.home")}}</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#services">{{__("messages.diensten")}}</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="corona">corona</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="{{asset('/Files/Algemene%20voorwaarden%20voor%20verkopen%20en%20herstellingen.pdf')}}">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="https://www.privacypolicies.com/privacy/view/61460f60c916824f9a8e778c145c6875">Privacy policy</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{asset('/Files/Algemene%20voorwaarden%20voor%20verkopen%20en%20herstellingen.pdf')}}">{{__("messages.terms")}}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="https://www.privacypolicies.com/privacy/view/61460f60c916824f9a8e778c145c6875">{{__("messages.privacy")}}</a></li>
                     </ul>
                 </div>
             <!--
