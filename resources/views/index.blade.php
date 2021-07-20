@@ -22,7 +22,6 @@
     <!-- Vendor CSS Files
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/venobox/venobox.css')}}" />-->
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/bootstrap/css/bootstrap.min.css')}}" />
-    <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/icofont/icofont.min.css')}}" />
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/boxicons/css/boxicons.min.css')}}" />
     <link  rel="stylesheet" type="text/css" href="{{asset('/vendor/owl.carousel/assets/owl.carousel.min.css')}}" />
 
@@ -60,15 +59,14 @@
                 <li><a href="#pricing">Pricing</a></li>
                 -->
                 <li><a href="#contact">Contact</a></li>
-                <li class="drop-down"><p>{{__("messages.geschiedenis")}}</p>
+                <li class="drop-down"><p>{{__("messages.geschiedenis")}} &#x21E9;</p>
                     <ul>
                         <li><a href="/{{__("messages.routeVerleden")}}">{{__("messages.past")}}</a></li>
                         <li><a href="/{{__("messages.routeRecent")}}">{{__("messages.heden")}}</a></li>
                         <li><a href="/{{__("messages.routeMea")}}">Mea Culpa</a></li>
                     </ul>
                 </li>
-
-                <li class="drop-down"><a href="/merken">{{__("messages.merken")}}</a>
+                <li class="drop-down"><a href="/merken">{{__("messages.merken")}} &#x21E9;</a>
                     <ul>
 
                         <li><a href="/merken">{{__("messages.allemerken")}}</a></li>
@@ -96,8 +94,7 @@
                         <li><a href="https://oneautomotive.be/" target="_blank" rel=”noopener”>{{__("messages.invoerder")}}</a></li>
                     </ul>
                 </li>
-
-                <li class="drop-down"><p>{{__("messages.fabricanten")}}</p>
+                <li class="drop-down"><p>{{__("messages.fabricanten")}} &#x21E9;</p>
                     <ul>
                         <li><a href="http://www.dfsk.com/" target="_blank" rel=”noopener”>DFSK</a></li>
                         <li><a href="https://www.baicintl.com/" target="_blank" rel=”noopener”>BAIC</a></li>

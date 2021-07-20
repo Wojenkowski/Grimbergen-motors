@@ -236,17 +236,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #ffc107;
 }
 
-.nav-menu .drop-down > a:after {
-    content: "\ea99";
-    font-family: IcoFont, serif;
-    padding-left: 5px;
-}
 
-.nav-menu .drop-down > p:after {
-    content: "\ea99";
-    font-family: IcoFont, serif;
-    padding-left: 5px;
-}
 
 .nav-menu .drop-down .drop-down ul {
     top: 0;
@@ -266,18 +256,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 35px;
 }
 
-.nav-menu .drop-down .drop-down > a:after {
-    content: "\eaa0";
-    font-family: IcoFont, serif;
-    position: absolute;
-    right: 15px;
-}
-.nav-menu .drop-down .drop-down > p:after {
-    content: "\eaa0";
-    font-family: IcoFont, serif;
-    position: absolute;
-    right: 15px;
-}
+
 
 @media (max-width: 1366px) {
     .nav-menu .drop-down .drop-down ul {
@@ -362,27 +341,6 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 
-.mobile-nav .drop-down > a:after {
-    content: "\ea99";
-    font-family: IcoFont, serif;
-    padding-left: 10px;
-    position: absolute;
-    right: 15px;
-}
-.mobile-nav .drop-down > p:after {
-    content: "\ea99";
-    font-family: IcoFont, serif;
-    padding-left: 10px;
-    position: absolute;
-    right: 15px;
-}
-
-.mobile-nav .active.drop-down > a:after {
-    content: "\eaa1";
-}
-.mobile-nav .active.drop-down > p:after {
-    content: "\eaa1";
-}
 
 .mobile-nav .drop-down > a {
     padding-right: 35px;
