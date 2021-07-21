@@ -169,6 +169,7 @@ return [
          * Package Service Providers...
          */
         Silber\PageCache\LaravelServiceProvider::class,
+        
         /*
          * Application Service Providers...
          */

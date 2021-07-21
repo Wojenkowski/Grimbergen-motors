@@ -59,14 +59,14 @@
                 <li><a href="#pricing">Pricing</a></li>
                 -->
                 <li><a href="#contact">Contact</a></li>
-                <li class="drop-down"><p>{{__("messages.geschiedenis")}} &#x21E9;</p>
+                <li class="drop-down"><p>{{__("messages.geschiedenis")}} &#x2938;</p>
                     <ul>
                         <li><a href="/{{__("messages.routeVerleden")}}">{{__("messages.past")}}</a></li>
                         <li><a href="/{{__("messages.routeRecent")}}">{{__("messages.heden")}}</a></li>
                         <li><a href="/{{__("messages.routeMea")}}">Mea Culpa</a></li>
                     </ul>
                 </li>
-                <li class="drop-down"><a href="/merken">{{__("messages.merken")}} &#x21E9;</a>
+                <li class="drop-down"><a href="/merken">{{__("messages.merken")}} &#x2938;</a>
                     <ul>
 
                         <li><a href="/merken">{{__("messages.allemerken")}}</a></li>
@@ -94,7 +94,7 @@
                         <li><a href="https://oneautomotive.be/" target="_blank" rel=”noopener”>{{__("messages.invoerder")}}</a></li>
                     </ul>
                 </li>
-                <li class="drop-down"><p>{{__("messages.fabricanten")}} &#x21E9;</p>
+                <li class="drop-down"><p>{{__("messages.fabricanten")}} &#x2938;</p>
                     <ul>
                         <li><a href="http://www.dfsk.com/" target="_blank" rel=”noopener”>DFSK</a></li>
                         <li><a href="https://www.baicintl.com/" target="_blank" rel=”noopener”>BAIC</a></li>
@@ -104,7 +104,7 @@
                 </li>
 
 
-                <li class="drop-down"><p>{{__("messages.language")}}</p>
+                <li class="drop-down"><p>{{__("messages.language")}} &#x2938;</p>
                     <ul>
                         <li><a href="{{ url('locale/nl') }}">NL</a></li>
                         <li><a href="{{ url('locale/en') }}">EN</a></li>
@@ -763,14 +763,14 @@
                 <p>Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> and Grimbergen motors </p>
             </div>
         </div>
-        <!--
+        
         <div class="social-links text-center text-md-right pt-3 pt-md-0">
-            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>-->
+            <!--<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>-->
+            <!--<a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>-->
+            <!--<a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>-->
+            <!--<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>-->
+            <!--<a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>-->
+        </div>
     </div>
 </footer><!-- End Footer -->
 
