@@ -1445,11 +1445,11 @@ section {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: #ddd !important;
+    background-color: #ddd
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-    background-color: #ffc107 !important;
+    background-color: #ffc107;
 }
 
 .portfolio-details .portfolio-info {

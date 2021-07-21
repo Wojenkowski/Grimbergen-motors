@@ -20,6 +20,8 @@
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteRule ^ index.php [L]
 
+  # Each resource should define its content type in order to facilitate their interpretation by web browsers.
+  AddType application/x-font-woff2 .woff2
 
 </IfModule>
     <IfModule mod_headers.c>

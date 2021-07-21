@@ -112,6 +112,7 @@ return[
     "routeVerleden"=>"fr/passé",
     "routeRecent"=>"fr/passé-récent",
     "routeMea"=>"fr/Mea-culpa",
+    "corona"=>"mesures corona"
 
 
 ];

@@ -111,5 +111,5 @@ return[
     "routeVerleden"=>"verleden",
     "routeRecent"=>"recent-verleden",
     "routeMea"=>"Mea-culpa",
-
+    "corona"=>"corona maatregelen"
 ];

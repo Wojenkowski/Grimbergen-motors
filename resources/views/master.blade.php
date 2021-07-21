@@ -37,6 +37,14 @@
     <!-- Template Main CSS File -->
     <link  rel="stylesheet" type="text/css" href="{{asset('/css/style22.css')}}" />
 
+    <!-- facebook -->
+    <meta property="og:title" content="Grimbergen motors" />
+    <meta property="og:url" content="{{ url()->current() }}"/>
+    <meta property="og:image" content="{{asset('/images/fullLogo-min.png')}}" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="{{app()->getLocale()}}"/>
+    <meta property="og:description" content=""/>
+
     <!-- =======================================================
     * Template Name: Baker - v2.1.0
     * Template URL: https://bootstrapmade.com/baker-free-onepage-bootstrap-theme/
@@ -156,7 +164,7 @@
                     <ul>
                         <li><i class="bx bx-chevron-right"></i> <a href="/#hero">{{__("messages.home")}}</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="/#services">{{__("messages.diensten")}}</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="/corona">corona</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="/corona">{{__("messages.corona")}}</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="{{asset('/Files/Algemene%20voorwaarden%20voor%20verkopen%20en%20herstellingen.pdf')}}">{{__("messages.terms")}}</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="https://www.privacypolicies.com/privacy/view/61460f60c916824f9a8e778c145c6875" target="_blank" rel=”noopener”>{{__("messages.privacy")}}</a></li>
                     </ul>
@@ -201,14 +209,11 @@
                 <p>Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> and Grimbergen motors </p>
             </div>
         </div>
-        <!--
+        
         <div class="social-links text-center text-md-right pt-3 pt-md-0">
-            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>-->
+            <!--<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>-->
+            <a href="https://www.facebook.com/GrimbergenMotors" class="facebook"><i class="bx bxl-facebook"></i></a>
+        </div>
     </div>
 </footer><!-- End Footer -->
 
