@@ -2728,6 +2728,10 @@ img-loader@^4.0.0:
   dependencies:
     loader-utils "^1.1.0"
 
+immutable@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/immutable/-/immutable-4.0.0.tgz#b86f78de6adef3608395efb269a91462797e2c23"
+
 import-cwd@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/import-cwd/-/import-cwd-3.0.0.tgz#20845547718015126ea9b3676b7592fb8bd4cf92"
@@ -4162,11 +4166,12 @@ sass-loader@^12.1.0:
     klona "^2.0.4"
     neo-async "^2.6.2"
 
-sass@^1.35.2:
-  version "1.35.2"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.35.2.tgz#b732314fcdaf7ef8d0f1698698adc378043cb821"
+sass@^1.44.0:
+  version "1.44.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.44.0.tgz#619aa0a2275c097f9af5e6b8fe8a95e3056430fb"
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
+    immutable "^4.0.0"
 
 schema-utils@^2.6.5:
   version "2.7.1"
